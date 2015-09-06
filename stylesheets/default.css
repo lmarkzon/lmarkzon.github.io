@@ -1,10 +1,10 @@
-header	{
+header {
 	background-color: AliceBlue;
 	font-family: verdana;
 	margin-top: -1%;
 }
 
-nav	{
+nav {
 	background-color: AliceBlue;
     font-family: verdana;
     text-align: center;
@@ -15,4 +15,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    
 }
