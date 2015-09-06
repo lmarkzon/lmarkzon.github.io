@@ -7,9 +7,9 @@ header {
 	background-color: AliceBlue;
 	font-family: verdana;
 	margin: 0;
-    height: 6em;
     position: relative;
     width: 100%
+    border-bottom: 1px solid black;
 }
 
 #nav {
@@ -73,3 +73,7 @@ footer {
     border-top: 1px solid black;
 }
 
+article {
+    font-family: sans-serif;
+    text-align: justify;
+}
