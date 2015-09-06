@@ -8,6 +8,7 @@ header {
 	font-family: verdana;
 	margin: 0;
     height: 6em;
+    position: relative;
 }
 
 #nav {
@@ -51,6 +52,8 @@ img {
 
 figure {
     float: left;
+    margin-left: 20%;
+    margin-right: 80%;
 }
 
 section {
