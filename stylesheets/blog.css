@@ -49,6 +49,11 @@ figcaption {
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
+    position: static;
+}
+
+img {
+    text-align: center;
 }
 
 
