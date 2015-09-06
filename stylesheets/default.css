@@ -55,12 +55,19 @@ figure {
 }
 
 section {
+    font-family: sans-serif;
     float: right;
-
+    clear: both;
+    margin-right: 20%;
 }
 
 article {
     float: right;
+    clear: both;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    margin-right: 20%;
+    margin-top: 10%;
 }
 
 footer {
