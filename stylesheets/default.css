@@ -8,10 +8,11 @@ nav	{
 	background-color: AliceBlue;
     font-family: verdana;
     text-align: center;
-    list-style-type: none;
     width: 100%;
+}
+
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
-footer {}
