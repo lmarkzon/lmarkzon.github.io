@@ -9,6 +9,7 @@ header {
 	margin: 0;
     height: 6em;
     position: relative;
+    width: 100%
 }
 
 #nav {
