@@ -1,8 +1,14 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 header {
 	background-color: AliceBlue;
 	font-family: verdana;
 	margin-top: -1%;
     margin-bottom: -1%;
+    height: 6em;
 }
 
 #nav {
@@ -62,7 +68,7 @@ footer {
     top: 100%;
     position: absolute;
     background-color: AliceBlue;
-    width: 100%;
+    width: 99%%;
     border-top: 1px solid black;
 }
 
