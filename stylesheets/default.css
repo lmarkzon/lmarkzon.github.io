@@ -61,6 +61,10 @@ section {
     float: right;
     clear: both;
     margin-right: 20%;
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+    width: 300px;
 }
 
 article {
@@ -69,7 +73,7 @@ article {
     font-family: Comic Sans MS;
     font-weight: bold;
     margin-right: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 footer {
