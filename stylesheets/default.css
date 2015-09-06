@@ -9,7 +9,6 @@ header {
     float: left;
     margin: 0 0 1em 0;
     padding: 0;
-    
     background-color: AliceBlue;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
@@ -35,5 +34,9 @@ header {
 
 #nav li a:hover {
     color: CornflowerBlue;
+    background-color: AliceBlue;
+}
+
+footer {
     background-color: AliceBlue;
 }
