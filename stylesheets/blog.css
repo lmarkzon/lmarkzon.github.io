@@ -45,11 +45,13 @@ header {
     background-color: AliceBlue;
 }
 
-figcaption {
+section {
     text-align: center;
-    font-family: sans-serif;
+    font-family: Comic Sans MS;
     font-weight: bold;
     position: static;
+    font-size: 1.5em;
+    line-height: 3em;
 }
 
 img {
