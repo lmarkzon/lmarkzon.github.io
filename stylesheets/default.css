@@ -6,8 +6,11 @@ header	{
 
 nav	{
 	background-color: AliceBlue;
-	font-family: verdana;
-	text-align: center;
-	width: 100%;
+    font-family: verdana;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
