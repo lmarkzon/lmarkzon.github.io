@@ -44,11 +44,12 @@ header {
     background-color: AliceBlue;
 }
 
-img {
-    height: 50px;
-    width: 50px;
-    font-size: 50%;
+img.expandpic {
+    width: 108px;
+    height: 100px;
 }
+
+
 
 figure {
     float: left;
@@ -75,6 +76,12 @@ article {
     font-weight: bold;
     margin-right: 20%;
     margin-top: 5%;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    font-size: 50%;
 }
 
 footer {
