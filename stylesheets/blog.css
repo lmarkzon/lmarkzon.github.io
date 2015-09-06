@@ -1,0 +1,62 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background-color: AliceBlue;
+	font-family: verdana;
+	margin: 0;
+    height: 6em;
+    position: relative;
+    width: 100%
+}
+
+#nav {
+	font-family: verdana;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: AliceBlue;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#nav ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    padding: 8px 15px;
+    border-right: 1px solid black;
+}
+
+#nav li a:hover {
+    color: CornflowerBlue;
+    background-color: AliceBlue;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    font-size: 50%;
+}
+
+footer {
+    text-align: center;
+    top: 100%;
+    position: absolute;
+    background-color: AliceBlue;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
