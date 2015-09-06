@@ -54,16 +54,8 @@ figcaption {
     line-height: 3em;
 }
 
-a:link {
-    color: Navy;
-}
-
-a:hover {
-    color: LightBlue;
-}
-
 a:visited {
-    color: IndianRed;
+    color: Navy;
 }
 
 img {
