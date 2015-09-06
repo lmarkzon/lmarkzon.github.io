@@ -54,7 +54,7 @@ img.expandpic {
 figure {
     float: left;
     position: relative;
-    top: 115px;
+    top: 100px;
     left: 230px;
     border: 1px solid black;
     display: flex;
@@ -67,6 +67,9 @@ section {
     text-align: center;
     height: 150px;
     width: 300px;
+    position: relative;
+    right: 230px;
+    top: 115px;
 }
 
 article {
@@ -74,8 +77,9 @@ article {
     clear: both;
     font-family: Comic Sans MS;
     font-weight: bold;
-    margin-right: 20%;
-    margin-top: 5%;
+    position: relative;
+    right: 250px;
+    top: 60px;
 }
 
 img {
@@ -89,7 +93,7 @@ footer {
     top: 100%;
     position: absolute;
     background-color: AliceBlue;
-    width: 100%;
+    width: 99%;
     border-top: 1px solid black;
 }
 
