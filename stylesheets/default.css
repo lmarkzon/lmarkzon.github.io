@@ -29,7 +29,6 @@ header {
     display: block;
     padding: 8px 15px;
     border-right: 1px solid black;
-    
 }
 
 #nav li a:hover {
@@ -41,11 +40,15 @@ img {
     height: 50px;
     width: 50px;
     font-size: 50%;
-
 }
 
 section {
     float: right;
-    
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 300px;
 }
 
