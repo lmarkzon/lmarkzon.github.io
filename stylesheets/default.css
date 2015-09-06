@@ -57,13 +57,12 @@ figure {
     top: 115px;
     left: 230px;
     border: 1px solid black;
+    display: flex;
 }
 
 section {
     font-family: sans-serif;
     float: right;
-    clear: both;
-    margin-right: 20%;
     border: 1px solid black;
     text-align: center;
     height: 150px;
