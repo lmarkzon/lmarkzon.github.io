@@ -52,8 +52,9 @@ img {
 
 figure {
     float: left;
-    margin-left: 20%;
-    margin-right: 80%;
+    position: relative;
+    top: 115px;
+    left: 230px;
 }
 
 section {
