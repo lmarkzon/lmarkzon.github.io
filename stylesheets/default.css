@@ -1,10 +1,11 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: AliceBlue;
 }
 
 header {
-	background-color: AliceBlue;
+	background-color: CornflowerBlue;
 	font-family: verdana;
 	margin: 0;
     height: 6em;
@@ -18,7 +19,7 @@ header {
     float: left;
     margin: 0 0 1em 0;
     padding: 0;
-    background-color: AliceBlue;
+    background-color: CornflowerBlue;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -41,8 +42,8 @@ header {
 }
 
 #nav li a:hover {
-    color: CornflowerBlue;
-    background-color: AliceBlue;
+    color: blue;
+    background-color: CornflowerBlue;
 }
 
 img.expandpic {
@@ -93,7 +94,7 @@ footer {
     text-align: center;
     top: 100%;
     position: absolute;
-    background-color: AliceBlue;
+    background-color: CornflowerBlue;
     width: 100%;
     border-top: 1px solid black;
 }

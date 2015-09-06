@@ -4,7 +4,7 @@ html {
 }
 
 header {
-	background-color: AliceBlue;
+	background-color: CornflowerBlue;
 	font-family: verdana;
 	margin: 0;
     position: relative;
@@ -18,7 +18,7 @@ header {
     float: left;
     margin: 0 0 1em 0;
     padding: 0;
-    background-color: AliceBlue;
+    background-color: CornflowerBlue;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -41,8 +41,8 @@ header {
 }
 
 #nav li a:hover {
-    color: CornflowerBlue;
-    background-color: AliceBlue;
+    color: blue;
+    background-color: CornflowerBlue;
 }
 
 figcaption {
@@ -55,7 +55,7 @@ figcaption {
 }
 
 a:visited {
-    color: Navy;
+    color: red;
 }
 
 img {
@@ -68,7 +68,7 @@ footer {
     text-align: center;
     top: 100%;
     position: relative;
-    background-color: AliceBlue;
+    background-color: CornflowerBlue;
     width: 100%;
     border-top: 1px solid black;
 }
