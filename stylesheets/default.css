@@ -1,3 +1,13 @@
 header	{
-	background-color: blue;
+	background-color: AliceBlue;
+	font-family: verdana;
+	margin-top: -1%;
 }
+
+nav	{
+	background-color: AliceBlue;
+	font-family: verdana;
+	text-align: center;
+	width: 100%;
+}
+
