@@ -6,8 +6,7 @@ html {
 header {
 	background-color: AliceBlue;
 	font-family: verdana;
-	margin-top: -1%;
-    margin-bottom: -1%;
+	margin: 0;
     height: 6em;
 }
 
