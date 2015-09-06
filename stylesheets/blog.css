@@ -54,7 +54,7 @@ img {
 footer {
     text-align: center;
     top: 100%;
-    position: absolute;
+    position: relative;
     background-color: AliceBlue;
     width: 100%;
     border-top: 1px solid black;
