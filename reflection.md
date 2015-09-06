@@ -1,6 +1,7 @@
 Reflection
 
-![Live Site](lmarkzon.github.io/ "Live Site")
+(lmarkzon.github.io/ "Live Site")
+<a href="http://lmarkzon.github.io"></a>
 
 - What did you learn about CSS padding, borders, and margin by doing this challenge?
 	I learned that I prefer all of the padding to pretty much be 0, so everything is as close together as possible. 
