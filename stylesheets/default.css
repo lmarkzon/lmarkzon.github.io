@@ -79,7 +79,7 @@ footer {
     position: absolute;
     display: inline-block;
     top: 40%;
-    left: 42%;
+    right: 10%;
     width: 200px;
     height: 200px;
 }
@@ -88,7 +88,7 @@ footer {
     position: absolute;
     display: inline-block;
     top: 40%;
-    right: 10%;
+    left: 42%;
     width: 200px;
     height: 200px;
 }
