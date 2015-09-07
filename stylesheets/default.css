@@ -9,6 +9,11 @@ header {
     position: fixed;
 }
 
+#wrapper {
+    margin:0 auto;
+    position: relative;
+}
+
 #nav {
 	font-family: fantasy;
     width: 100%;
