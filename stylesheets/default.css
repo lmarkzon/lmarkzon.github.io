@@ -6,13 +6,13 @@ html {
 
 header {
 	background-color: LightBlue;
-	font-family: verdana;
+	font-family: fantasy;
 	width: 100%;
     position: fixed;
 }
 
 #nav {
-	font-family: verdana;
+	font-family: fantasy;
     width: 100%;
     float: left;
     margin: 0 0 1em 0;
