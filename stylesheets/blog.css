@@ -7,7 +7,7 @@ html {
 header {
 	background-color: LightBlue;
 	font-family: fantasy;
-    position: fixed;
+    position: absolute;
     line-height: 45%;
     width: 100%;
     height: 25%;
