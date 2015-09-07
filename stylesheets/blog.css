@@ -58,7 +58,7 @@ figcaption {
     font-weight: bold;
     position: static;
     font-size: 1.5em;
-    line-height: 3em;
+    line-height: 1em;
 }
 
 a:visited {
