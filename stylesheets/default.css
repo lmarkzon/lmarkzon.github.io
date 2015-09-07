@@ -8,7 +8,6 @@ header {
 	background-color: LightBlue;
 	font-family: verdana;
 	width: 100%;
-    border: 3px solid navy;
     position: fixed;
     
 }
@@ -20,8 +19,6 @@ header {
     margin: 0 0 1em 0;
     padding: 0;
     background-color: LightBlue;
-    border-bottom: 3px solid navy;
-    border-right: 3px solid navy;
 }
 
 #nav ul {
@@ -41,42 +38,15 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    border-right: 3px solid navy;
 }
 
 #nav li:first-child a {
-    border-left: 1px solid navy;
+    border-left: 1px solid black;
 }
 
 #nav li a:hover {
     color: blue;
     background-color: CornflowerBlue;
-}
-
-img.expandpic {
-    width: 200px;
-    height: 208px;
-}
-
-figure {
-    float: left;
-    position: relative;
-    top: 100px;
-    left: 230px;
-    border: 1px solid black;
-    display: flex;
-}
-
-section {
-    font-family: sans-serif;
-    float: right;
-    border: 1px solid black;
-    text-align: center;
-    height: 150px;
-    width: 300px;
-    position: relative;
-    right: 230px;
-    top: 115px;
 }
 
 img {
