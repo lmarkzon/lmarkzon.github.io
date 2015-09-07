@@ -9,6 +9,7 @@ header {
 	font-family: fantasy;
     position: fixed;
     width: 100%
+
 }
 
 #nav {
@@ -71,11 +72,10 @@ img {
 
 footer {
     text-align: center;
-    top: 100%;
-    position: relative;
+    bottom: 0%;
+    position: absolute;
     background-color: LightBlue;
     width: 100%;
-    border-top: 1px solid black;
 }
 
 article {
