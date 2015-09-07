@@ -19,6 +19,8 @@ header {
     margin: 0 0 1em 0;
     padding: 0;
     background-color: LightBlue;
+    position: fixed;
+    top: 12%;
 }
 
 #nav ul {
@@ -61,6 +63,5 @@ footer {
     position: absolute;
     background-color: LightBlue;
     width: 100%;
-    border-top: 3px solid navy;
 }
 
