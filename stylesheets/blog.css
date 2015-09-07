@@ -20,8 +20,8 @@ header {
     margin: 0 0 1em 0;
     padding: 0;
     background-color: LightBlue;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    position: fixed;
+    top: 12%;
 }
 
 #nav ul {
@@ -38,7 +38,13 @@ header {
 #nav li a {
     display: block;
     padding: 8px 15px;
-    border-right: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#nav li:first-child a {
+    border-left: 0px;
 }
 
 #nav li a:hover {
