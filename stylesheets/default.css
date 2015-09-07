@@ -69,6 +69,7 @@ footer {
 #suess img {
     position: absolute;
     display: inline-block;
+    border: 1px solid black;
     top: 25%;
     left: 25%;
     width: 100px;
