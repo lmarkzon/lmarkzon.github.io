@@ -8,6 +8,7 @@ header {
 	background-color: LightBlue;
 	font-family: fantasy;
     position: absolute;
+    line-height: 50%;
     width: 100%;
     height: 25%;
 }
