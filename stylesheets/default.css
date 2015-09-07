@@ -69,4 +69,8 @@ footer {
 #suess {
     position: absolute;
     display: inline-block;
+    top: 25%;
+    left: 25%;
+    width: 250px;
+    height: 250px;
 }
