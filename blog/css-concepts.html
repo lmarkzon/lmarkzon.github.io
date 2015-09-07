@@ -25,18 +25,37 @@
       </ul>
     </div>
 
-  <article>
+    <section id="positioning">
+      <img src="/imgs/css-positioning.jpg">
+    </section>
+
         <p>
-        	Absolute is when the position of the element is literally exactly where you want it to be when placed, so it doesn't move regardless of what's surrounding it.
+          There are 4 different types of positioning options you can set your elements to when styling a webpage or document. It is very important to know the differences between them to have complete control over the way your site looks and where everything goes. This can be applied to pretty much any aspect of a page, allowing for complete customization of your document. The different positions are Absolute, Fixed, Static, and Relative, and we will be going over the definitions and differences of each below.
+        </p>
+        <article></article>
+        <p>
+          Static positioning is the default for all page elements. It means that the element is not positioned in any special way, it is always positioned according to the normal flow of the page. So it really doesn't mean that much, just that the elements will flow into the page as it normally would. Based on my experiences and what I've researched, you would really only used static positioning to "forcefully-remove" an element's positioning that was applied to it out of your control. 
+        </p>
+        <p>
+        	Absolute positioning allows you to place any object on the page literally anywhere you want it to go and exactly in that place. So if you give an element a positioning of absolute and then give it a position using top/bottom/right/left it will go exactly in that spot. It's important to remember that these values will be relative to the next parent element with relative/absolute positioning, and if there is no parent, it will default to be placed relatively to the page itself. So these elements are removed from the "flow" of the page's elements. Absolute positioning applied to an element can result in overlapping elements since the objects are being placed in very specific locations. Which also means that an element with absolute positioning is not affected by other page elements, nor does it affect them. Just remember, overuse and improper use of absolute positioning of your site can result in limited flexibility of the page.
+          <br>For Example, an image in the lower right corner would look like:
+          <br>img {
+              <br>position: absolute;
+              <br>bottom: 0px;
+              <br>right: 0px;
+             <br>}
+        </p>
+        <p>
+          Relative positioning means the object in question is positioned relative to the page margins of the document or container it's in, regardless of what's around it. So the element is relative to its normal self, meaning when you set the top, right, bottom, and left properties it will cause it to be adjusted away from its normal position. But if you don't set any other positioning attributes, it will not affect it's positioning. Relative positioning doesn't affect any other elements on the document other than the one that's targeted, unlike absolute.
+          <br>For Example, a header you want in the upper left corner would look like:
+          <br>h1 {
+              <br>position: relative;
+              <br>top: 5px;
+              <br>right: 5px;
+             <br>}
         </p>
         <p> 
-        	Fixed is positioned relative to the browser window itself, so even the window is scrolled the position doesn't change.
-        </p>
-        <p>
-        	Static means that the elements are not positioned in any special way, it is always positioned according to the normal flow of the page. It is the default position.
-        </p>
-        <p>
-        	Relative positioning means the element is relative to its normal self, meaning when you set the top, right, bottom, and left properties it will cause it to be adjusted away from its normal position.
+        	Fixed is positioned relative to the browser window itself (or viewpoint), so even when the window is scrolled the position doesn't change. A fixed positioned element will stay in it's position on the screen, so this would be useful for a nav bar you want the user to always be able to see and access when they're scrolling down the page. Sometimes this can create a weird/interesting effect on the page, depending on how well it is used with other elements. This type of positioning it the least commonly used, based on my experice and and what I've read. 
         </p>
   </article>
 

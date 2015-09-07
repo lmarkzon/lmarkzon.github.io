@@ -79,6 +79,12 @@ section {
     margin-top: 5px;
 }
 
+#positioning img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+
 footer {
     text-align: center;
     bottom: 0%;
