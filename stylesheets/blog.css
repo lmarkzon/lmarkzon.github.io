@@ -71,10 +71,12 @@ section {
     line-height: 2.5em;
 }
 
-img {
+#social img {
     height: 50px;
     width: 50px;
     font-size: 50%;
+    margin-right: 100px;
+    margin-top: 5px;
 }
 
 footer {
