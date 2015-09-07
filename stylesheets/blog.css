@@ -91,13 +91,14 @@ footer {
 article {
     font-family: sans-serif;
     text-align: justify; 
+    font-size: 15px;
     position: absolute;
     top: 25%;
-    bottom: ;
+    bottom: 50%;
 }
 
 #positioning img {
     position: absolute;
-    height: 70px;
-    width: 70px;
+    height: 200px;
+    width: 200px;
 }
