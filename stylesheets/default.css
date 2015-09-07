@@ -9,7 +9,6 @@ header {
 	font-family: verdana;
 	width: 100%;
     position: fixed;
-    
 }
 
 #nav {
@@ -43,7 +42,7 @@ header {
 }
 
 #nav li:first-child a {
-    border-left: 1px solid black;
+    border-left: 0px;
 }
 
 #nav li a:hover {
