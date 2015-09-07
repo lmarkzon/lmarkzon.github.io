@@ -65,9 +65,10 @@ a:visited {
 }
 
 section {
-    position: 
-    display: inline;
-
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    line-height: 2.5em;
 }
 
 img {
