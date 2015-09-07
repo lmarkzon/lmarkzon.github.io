@@ -66,3 +66,7 @@ footer {
     height: 15%;
 }
 
+figure {
+    position: relative;
+    display: inline-block;
+}
