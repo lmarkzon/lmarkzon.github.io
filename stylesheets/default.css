@@ -66,11 +66,11 @@ footer {
     height: 10%;
 }
 
-span {
+article {
     position: absolute;
     display: inline-block;
     top: 25%;
     left: 25%;
-    width: ;
-    height: ;
+    width: 100px;
+    height: 100px;
 }
