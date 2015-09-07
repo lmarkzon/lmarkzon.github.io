@@ -66,22 +66,20 @@ footer {
     height: 10%;
 }
 
-#code img {
+#design1 img {
     position: absolute;
     display: inline-block;
-    border: 1px solid black;
-    top: 25%;
+    top: 50%%;
     left: 25%;
     width: 100px;
     height: 100px;
 }
 
-#design1 img {
+#code img {
     position: absolute;
     display: inline-block;
-    border: 1px solid black;
-    top: 50%%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
     width: 100px;
     height: 100px;
 }
@@ -89,9 +87,8 @@ footer {
 #design2 img {
     position: absolute;
     display: inline-block;
-    border: 1px solid black;
-    top: 25%;
-    left: 50%;
+    top: 50%;
+    right: 25%;
     width: 100px;
     height: 100px;
 }
