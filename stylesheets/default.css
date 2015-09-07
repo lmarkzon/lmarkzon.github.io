@@ -7,10 +7,11 @@ html {
 header {
 	background-color: LightBlue;
 	font-family: verdana;
-	margin: 0;
-    height: 6em;
-    position: relative;
-    width: 100%
+	width: 100%;
+    border: 1px solid black;
+    
+    position:
+    
 }
 
 #nav {
@@ -72,16 +73,6 @@ section {
     position: relative;
     right: 230px;
     top: 115px;
-}
-
-article {
-    float: right;
-    clear: both;
-    font-family: Comic Sans MS;
-    font-weight: bold;
-    position: relative;
-    right: 250px;
-    top: 60px;
 }
 
 img {
