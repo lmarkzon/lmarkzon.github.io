@@ -5,7 +5,7 @@ html {
 }
 
 header {
-	background-color: CornflowerBlue;
+	background-color: LightBlue;
 	font-family: verdana;
 	margin: 0;
     height: 6em;
@@ -19,7 +19,7 @@ header {
     float: left;
     margin: 0 0 1em 0;
     padding: 0;
-    background-color: CornflowerBlue;
+    background-color: LightBlue;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -94,7 +94,7 @@ footer {
     text-align: center;
     top: 100%;
     position: absolute;
-    background-color: CornflowerBlue;
+    background-color: LightBlue;
     width: 100%;
     border-top: 1px solid black;
 }
