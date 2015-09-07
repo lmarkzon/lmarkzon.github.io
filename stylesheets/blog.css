@@ -20,7 +20,7 @@ header {
     margin: 0 0 1em 0;
     padding: 0;
     background-color: LightBlue;
-    position: fixed;
+    position: absolute;
     top: 12%;
 }
 
@@ -79,12 +79,6 @@ section {
     margin-top: 5px;
 }
 
-#positioning img {
-    position: absolute;
-    height: 70px;
-    width: 70px;
-}
-
 footer {
     text-align: center;
     bottom: 0%;
@@ -99,4 +93,10 @@ article {
     text-align: justify; 
     position: absolute;
     top: 25%;
+}
+
+#positioning img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
 }
