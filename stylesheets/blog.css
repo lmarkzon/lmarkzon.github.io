@@ -96,9 +96,3 @@ article {
     top: 25%;
     bottom: 50%;
 }
-
-#positioning img {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-}
