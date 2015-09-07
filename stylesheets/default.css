@@ -8,9 +8,8 @@ header {
 	background-color: LightBlue;
 	font-family: verdana;
 	width: 100%;
-    border: 1px solid black;
-    
-    position:
+    border: 3px solid navy;
+    position: fixed;
     
 }
 
@@ -21,8 +20,8 @@ header {
     margin: 0 0 1em 0;
     padding: 0;
     background-color: LightBlue;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 3px solid navy;
+    border-right: 3px solid navy;
 }
 
 #nav ul {
@@ -42,11 +41,11 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    border-right: 1px solid black;
+    border-right: 3px solid navy;
 }
 
 #nav li:first-child a {
-    border-left: 1px solid black;
+    border-left: 1px solid navy;
 }
 
 #nav li a:hover {
@@ -58,8 +57,6 @@ img.expandpic {
     width: 200px;
     height: 208px;
 }
-
-
 
 figure {
     float: left;
@@ -94,6 +91,6 @@ footer {
     position: absolute;
     background-color: LightBlue;
     width: 100%;
-    border-top: 1px solid black;
+    border-top: 3px solid navy;
 }
 
