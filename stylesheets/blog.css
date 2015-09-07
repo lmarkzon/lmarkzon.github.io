@@ -56,12 +56,18 @@ figcaption {
     text-align: center;
     font-family: Comic Sans MS;
     font-weight: bold;
-    position: static;
+    position: relative;
     font-size: 1em;
 }
 
 a:visited {
     color: navy;
+}
+
+section {
+    position: relative;
+    display: inline;
+
 }
 
 img {
