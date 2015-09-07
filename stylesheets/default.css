@@ -39,7 +39,14 @@ header {
 #nav li a {
     display: block;
     padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
     border-right: 1px solid black;
+}
+
+#nav li:first-child a {
+    border-left: 1px solid black;
 }
 
 #nav li a:hover {
@@ -83,7 +90,7 @@ img {
 
 footer {
     text-align: center;
-    top: 100%;
+    bottom: 0%;
     position: absolute;
     background-color: LightBlue;
     width: 100%;
