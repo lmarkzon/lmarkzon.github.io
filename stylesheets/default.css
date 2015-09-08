@@ -61,7 +61,7 @@ h1 {
 #imagerow ul {
     list-style-type: none;
 }
-
+g
 #imagerow li{
     display: inline-block;
     margin: 6em;
@@ -70,6 +70,10 @@ h1 {
 #imagerow img {
     height: 200px;
     width: 200px;
+}
+
+a:visited {
+    color: navy;
 }
 
 footer {
