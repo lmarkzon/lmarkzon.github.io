@@ -28,7 +28,7 @@ h1 {
 
 #nav ul {
     list-style-type: none;
-    width: 53%;
+    width: 59%;
     margin: 0 auto;
     padding: 0;
 }
@@ -64,6 +64,7 @@ h1 {
 
 #imagerow li{
     display: inline-block;
+    margin: 6em;
 }
 
 #imagerow img {
