@@ -7,16 +7,10 @@ body {
     margin-top: -1em;
 }
 
-#header {
-	display: inline;
-	font-family: fantasy;
-    width: 100%;
-    height: 35%;
-}
-
 h1 {
     color: #00FFFF;
     font-family: cursive;
+    background-color: #708090;
 }
 
 #nav {
