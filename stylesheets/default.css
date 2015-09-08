@@ -11,6 +11,9 @@ h1 {
     color: #87CEFA;
     font-family: cursive;
     background-color: #708090;
+    margin: 0;
+    padding-top: 1em;
+    padding-left: .5em;
 }
 
 #nav {
@@ -31,6 +34,7 @@ h1 {
 
 #nav li {
     float: left;
+    font-size: 1.5em;
 }
 
 #nav li a {
@@ -38,7 +42,7 @@ h1 {
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
-    color: #00BFFF;
+    color: #87CEFA;
 }
 
 #nav li:first-child a {
