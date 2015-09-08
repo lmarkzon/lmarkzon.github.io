@@ -7,7 +7,6 @@ html {
 #header {
 	background-color: LightBlue;
 	font-family: fantasy;
-    position: absolute;
     width: 100%;
     height: 35%;
 }
@@ -19,7 +18,6 @@ html {
     margin: 0 0 1em 0;
     padding: 0;
     background-color: LightBlue;
-    position: absolute;
     top: 12%;
 }
 
@@ -51,46 +49,24 @@ html {
     background-color: CornflowerBlue;
 }
 
+#imagerow ul {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    bottom: 0%;
+    background-color: LightBlue;
+    width: 100%;
+    height: 10%;
+}
+
 #social img {
     height: 50px;
     width: 50px;
     font-size: 50%;
     margin-right: 100px;
     margin-top: 5px;
-}
-
-footer {
-    text-align: center;
-    bottom: 0%;
-    position: absolute;
-    background-color: LightBlue;
-    width: 100%;
-    height: 10%;
-}
-
-#design1 img {
-    position: absolute;
-    display: inline-block;
-    top: 40%;
-    left: 10%;
-    width: 200px;
-    height: 200px;
-}
-
-#code img {
-    position: absolute;
-    display: inline-block;
-    top: 40%;
-    right: 10%;
-    width: 200px;
-    height: 200px;
-}
-
-#design2 img {
-    position: absolute;
-    display: inline-block;
-    top: 40%;
-    left: 42%;
-    width: 200px;
-    height: 200px;
 }
