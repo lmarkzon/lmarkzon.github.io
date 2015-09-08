@@ -4,7 +4,7 @@ html {
     background-color: AliceBlue;
 }
 
-header {
+#header {
 	background-color: LightBlue;
 	font-family: fantasy;
     position: absolute;
