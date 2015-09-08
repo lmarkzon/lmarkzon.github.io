@@ -57,8 +57,11 @@ html {
     list-style-type: none;
 }
 
-#imagerow img {
+#imagerow li{
     display: inline-block;
+}
+
+#imagerow img {
     height: 200px;
     width: 200px;
 }
