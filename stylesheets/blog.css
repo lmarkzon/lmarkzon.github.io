@@ -7,7 +7,6 @@ figcaption {
 }
 
 section {
-    position: absolute;
     top: 33%;
     left: 33%;
     line-height: 2.5em;
@@ -17,7 +16,15 @@ article {
     font-family: sans-serif;
     text-align: justify; 
     font-size: 15px;
-    position: absolute;
-    top: 25%;
     margin: 0 auto;
+}
+
+h3 {
+    color: #87CEFA;
+    font-family: cursive;
+    background-color: #708090;
+    margin: 0;
+    padding-top: 1em;
+    padding-left: .5em;
+    text-align: center;
 }
