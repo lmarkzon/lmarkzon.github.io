@@ -14,6 +14,7 @@ h1 {
     margin: 0;
     padding-top: 1em;
     padding-left: .5em;
+    text-align: center;
 }
 
 #nav {
@@ -27,7 +28,7 @@ h1 {
 
 #nav ul {
     list-style-type: none;
-    width: 100%;
+    width: 53%;
     margin: 0 auto;
     padding: 0;
 }
