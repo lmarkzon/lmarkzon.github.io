@@ -13,10 +13,6 @@ section {
     line-height: 2.5em;
 }
 
-p {
-    margin-top: .5em;
-}
-
 article {
     font-family: sans-serif;
     text-align: justify; 
@@ -47,10 +43,15 @@ h4 {
 }
 
 h5 {
-    background-color: #708090;
+    font-family: Trebuchet MS;
     margin: 0;
     margin-top: -1em;
     padding-top: 1em;
     padding-left: .5em;
-    text-align: center;
+}
+
+
+p {
+    margin-top: .5em;
+    font-family: Trebuchet MS;
 }
