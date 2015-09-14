@@ -66,6 +66,10 @@ h1 {
     padding: 0;
 }
 
+#design1 {
+    float: left;
+}
+
 a:visited {
     color: navy;
 }
