@@ -29,11 +29,28 @@
   <article>
     <h3>Arrays</h3>
     <p>
-    Arrays can contain all types of Ruby data/objects, including other arrays or it can even be empty - but they’re structured in an ordered list. Each item within the array is in a certain spot, and that spot has a corresponding index number that’s used to identify specific items within the array. In arrays, the first item listed starts with the number 0, not 1, then goes up from there. Arrays are also always followed by a block of some code wrapped in do and end or [ ] symbols. What does it mean to iterate over an array? Iterators are methods that “act” like loops and arrays are a way to store (and keep track of) an unknown number of items(index items) for later use. More specifically, iterating over an array just means pointing to each item within the array and telling it how to “act” or what to “do” to make use of the information/item at the time, or you can use a method to go over each item. So instead of telling the array “as a whole” to do something, you are “talking” to the individual items within it. When iterating over an array, you go in order, from the starting point to the ending point that you can define. All you have to do to create an array is define a variable, and assign it the values that you want inside of square brackets, separated by commas.
+    Arrays can contain all types of Ruby data/objects, including other arrays or it can even be empty - but they’re structured in an ordered list. Each item within the array is in a certain spot, and that spot has a corresponding index number that’s used to identify specific items within the array. In arrays, the first item listed starts with the number 0, not 1, then goes up from there. Arrays are also always followed by a block of some code wrapped in do and end or [ ] symbols. What does it mean to iterate over an array? Iterators are methods that “act” like loops and arrays are a way to store (and keep track of) an unknown number of items(index items) for later use. More specifically, iterating over an array just means pointing to each item within the array and telling it how to “act” or what to “do” to make use of the information/item at the time, or you can use a method to go over each item. So instead of telling the array “as a whole” to do something, you are “talking” to the individual items within it. When iterating over an array, you go in order, from the starting point to the ending point that you can define. In arrays, 'puts' calls for 'puts' on each of the objects in the array. All you have to do to create an array is define a variable, and assign it the values that you want inside of square brackets, separated by commas.
+    <br>
+    <br>
+      Example: names = [Bob, Joe, Steve]
+    <br>
+    <br>
+       puts names [0]<br>
+       puts names [1]<br>
+       puts names [2]<br>
     </p>
     <h3>Hashes</h3>
     <p>
     Hashes are like a collection of pairs of information, each pair of information has a key (unique name) and a value. It’s very important that a hash’s key (name) is unique, or else it may not return the correct paired-value. Based on what we’ve learned, you use the key (a unique name you assign your hash) to return/access the value paired to that key. Instead of using the square brackets like arrays use, [ ], hashes use the curly brackets, { }, to contain the values. To separate the key from each value, the format is key => "value”, and each pair should be separate by a comma.  If there is only one item in the hash, it does not need quotes around it.
+      <br>
+      <br>
+    Example: my_info = {:first_name => 'Lauren', :last_name => 'Markzon', :hometown => 'West Bloomfield', :age => 25}
+      <br>
+    p my_info [:first_name]
+    p my_info [:last_name]
+    p my_info [:hometown]
+    p my_info [:age]
+      <br>
     </p>
     <h3>Arrays vs Hashes</h3>
     <p>
