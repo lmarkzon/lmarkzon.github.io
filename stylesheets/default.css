@@ -59,15 +59,6 @@ h1 {
     text-align: center;
 }
 
-#imagerow ul {
-    list-style-type: none;
-}
-g
-#imagerow li{
-    display: inline-block;
-    
-}
-
 #imagerow img {
     height: 200px;
     width: 200px;
