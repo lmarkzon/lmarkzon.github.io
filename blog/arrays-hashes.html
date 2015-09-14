@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/blog.css">
+  <meta charset="UTF-8">
+  <title>Lauren Markzon: Technical Blog</title>
+</head>
+
+<body>
+  <header>
+    <h1>Lauren Markzon</h1>
+    <h2>Arrays & Hashes</h2>
+    <h4>September 13, 2015</h4>
+  </header>
+
+    <div id="nav">
+      <ul>
+        <li><a href="http://lmarkzon.github.io">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+  <article>
+    <h5>Arrays</h5>
+    <p>
+    Arrays can contain all types of Ruby data/objects, including other arrays or it can even be empty - but they’re structured in an ordered list. Each item within the array is in a certain spot, and that spot has a corresponding index number that’s used to identify specific items within the array. In arrays, the first item listed starts with the number 0, not 1, then goes up from there. Arrays are also always followed by a block of some code wrapped in do and end or [ ] symbols. What does it mean to iterate over an array? Iterators are methods that “act” like loops and arrays are a way to store (and keep track of) an unknown number of items(index items) for later use. More specifically, iterating over an array just means pointing to each item within the array and telling it how to “act” or what to “do” to make use of the information/item at the time, or you can use a method to go over each item. So instead of telling the array “as a whole” to do something, you are “talking” to the individual items within it. When iterating over an array, you go in order, from the starting point to the ending point that you can define.
+    </p>
+    <h5>Hashes</h5>
+    <p>
+    Hashes are like a collection of pairs of information, each pair of information has a key (unique name) and a value. It’s very important that a hash’s key (name) is unique, or else it may not return the correct paired-value. Based on what we’ve learned, you use the key (a unique name you assign your hash) to return/access the value paired to that key. Instead of using the square brackets like arrays use, [ ], hashes use the curly brackets, { }, to contain the values. To separate the key from each value, the format is key => "value”, and each pair should be separate by a comma.  If there is only one item in the hash, it does not need quotes around it.
+    </p>
+    <h5>Arrays vs Hashes</h5>
+    <p>
+    Both arrays and hashes are collections of objects in Ruby, but they have some differences (besides just syntax) that make each work better in different scenarios. As stated above, arrays are ordered lists and have assigned integers called “index numbers” to identify them, starting from one end to the other, hashes on the other hand are unordered key-value pairs that can be any object type. If you wanted to be able to look up items in your collection of data by its specific (and unique) name, then you would probably want to use a hash. But if you wanted to sort a list of items in a specific order (integers lowest to highest or strings in alphabetical order) then you would want to use a ordered list which is an array.
+    </p>
+    </article>
+
+  <footer id="social">
+      <a href="http://www.linkedin.com/in/laurenmarkzon"><img src="/imgs/linkedinicon.png"></a>
+
+      <a href="http://plus.google.com/u/0/111747129358820564681/posts"><img src="/imgs/googleplusicon.png"></a>
+
+      <a href="http://www.facebook.com"><img src="/imgs/facebookicon.png"></a>
+
+      <a href="http://www.twitter.com/Lmarkzon"><img src="/imgs/twittericon.png"></a>
+
+      <a href="http://www.GitHub.com/Lmarkzon"><img src="/imgs/githubicon.png"></a>
+    </footer>
+
+  </body>
+</html>
