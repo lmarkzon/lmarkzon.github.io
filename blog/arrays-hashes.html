@@ -35,20 +35,21 @@
       Example: names = [Bob, Joe, Steve]
     <br>
     <br>
-       puts names [0]<br>
-       puts names [1]<br>
-       puts names [2]<br>
+               puts names [0]<br>
+               puts names [1]<br>
+               puts names [2]<br>
     </p>
     <h3>Hashes</h3>
     <p>
     Hashes are like a collection of pairs of information, each pair of information has a key (unique name) and a value. It’s very important that a hash’s key (name) is unique, or else it may not return the correct paired-value. Based on what we’ve learned, you use the key (a unique name you assign your hash) to return/access the value paired to that key. Instead of using the square brackets like arrays use, [ ], hashes use the curly brackets, { }, to contain the values. To separate the key from each value, the format is key => "value”, and each pair should be separate by a comma.  If there is only one item in the hash, it does not need quotes around it.
       <br>
+      <br>Example:
+    <br> 
+    my_info = {:first_name => 'Lauren', :last_name => 'Markzon', :hometown => 'West Bloomfield', :age => 25}
       <br>
-    Example: my_info = {:first_name => 'Lauren', :last_name => 'Markzon', :hometown => 'West Bloomfield', :age => 25}
-      <br>
-    p my_info [:first_name]
-    p my_info [:last_name]
-    p my_info [:hometown]
+    p my_info [:first_name]<br>
+    p my_info [:last_name]<br>
+    p my_info [:hometown]<br>
     p my_info [:age]
       <br>
     </p>
