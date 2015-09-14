@@ -36,7 +36,8 @@
         </p>
         <p>
         	Absolute positioning allows you to place any object on the page literally anywhere you want it to go and exactly in that place. So if you give an element a positioning of absolute and then give it a position using top/bottom/right/left it will go exactly in that spot. It's important to remember that these values will be relative to the next parent element with relative/absolute positioning, and if there is no parent, it will default to be placed relatively to the page itself. So these elements are removed from the "flow" of the page's elements. Absolute positioning applied to an element can result in overlapping elements since the objects are being placed in very specific locations. Which also means that an element with absolute positioning is not affected by other page elements, nor does it affect them. Just remember, overuse and improper use of absolute positioning of your site can result in limited flexibility of the page.
-          <br>For Example, an image in the lower right corner would look like:
+          <br>
+          <br>For Example, an image in the lower right corner would look like:<br>
           <br>img {
               <br>position: absolute;
               <br>bottom: 0px;
@@ -45,6 +46,7 @@
         </p>
         <p>
           Relative positioning means the object in question is positioned relative to the page margins of the document or container it's in, regardless of what's around it. So the element is relative to its normal self, meaning when you set the top, right, bottom, and left properties it will cause it to be adjusted away from its normal position. But if you don't set any other positioning attributes, it will not affect it's positioning. Relative positioning doesn't affect any other elements on the document other than the one that's targeted, unlike absolute.
+          <br>
           <br>For Example, a header you want in the upper left corner would look like:
           <br>h1 {
               <br>position: relative;
