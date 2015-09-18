@@ -57,3 +57,11 @@ p {
     margin-right: 1em;
     font-family: Trebuchet MS;
 }
+
+#contact_form {
+    border: .5em;
+}
+
+#contact_form label{
+    font-size: 3em;
+}
