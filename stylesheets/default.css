@@ -132,11 +132,11 @@ body {
 }
 
 h2.contact { 
-    padding-left: 125px; 
-    font-size: 66px; 
-    color: #ff5400; 
-    height: 105px; 
-    background: url(imgs/contact.png) no-repeat -10px -10px;
+    text-align: center; 
+    font-size: 3.5em; 
+    color: #; 
+    height: 1.5em; 
+    background-image: url("imgs/contact.png") no-repeat -10px -10px;
     font-family: 'YanoneKaffeesatzRegular';
 }
 
