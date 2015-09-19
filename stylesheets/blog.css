@@ -26,6 +26,18 @@ figcaption {
     margin-top: 2.5em;
 }
 
+figcaption a:link {
+    text-decoration: none;
+}
+
+figcaption a:visited {
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
 
 h4 {
     color: #FFFFE0;
