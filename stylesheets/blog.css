@@ -28,14 +28,19 @@ figcaption {
 
 figcaption a:link {
     text-decoration: none;
+    font-size: 1.6em;
+    font-family: monospace;
+    color: #9ACD32;
 }
 
 figcaption a:visited {
     text-decoration: none;
+    color: #800080;
 }
 
 figcaption a:hover {
     text-decoration: underline;
+    text-shadow: 2px 2px #ff0000;
 }
 
 
