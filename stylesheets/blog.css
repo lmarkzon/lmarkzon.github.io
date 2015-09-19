@@ -7,17 +7,16 @@ section {
 
 figcaption {
     text-align: center;
-    font-family: Comic Sans MS;
+    font-family: ;
     font-weight: bold;
     position: relative;
     font-size: 1em;
-    margin-top: 2.5em;
+    margin-top: 5em;
 }
 
 figcaption a:link {
     text-decoration: none;
     font-size: 1.6em;
-    font-family: cursive;
     color: #008B8B;
 }
 
