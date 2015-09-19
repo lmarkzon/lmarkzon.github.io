@@ -1,15 +1,3 @@
-/*"BLOG POSTS" PAGE HEADER*/
-h2 {
-    color: #FAFAD2;
-    font-family: cursive;
-    background-color: #333333;
-    margin: 0;
-    margin-top: -1em;
-    padding-top: 1em;
-    padding-left: .5em;
-    text-align: center;
-}
-
 /*BLOG INDEX LINKS*/
 section {
     top: 33%;
