@@ -85,6 +85,13 @@ a:visited {
     color: #008B8B;
 }
 
+/*PAGE UNDER CONSTRUCTION IMAGE*/
+#construction img {
+    margin-left: 15em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 /*FOOTER AND SOCIAL MEDIA LINKS*/
 footer {
     text-align: center;
