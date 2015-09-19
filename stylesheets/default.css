@@ -42,12 +42,12 @@ h1 {
 
 #nav li a {
     display: block;
-    padding: .5em .89em;
+    padding: .5em .6em;
     text-decoration: none;
     font-weight: bold;
     color: #FAFAD2;
-    margin-left: .8em;
-    margin-right: .8em;
+    margin-left: .3em;
+    margin-right: .3em;
 }
 
 #nav li:first-child a {
@@ -143,8 +143,8 @@ h2.contact {
 }
 
 p.contact { 
-    font-size: 24px; 
-    margin-bottom: 15px; 
+    font-size: 2em; 
+    margin-bottom: .4em; 
     line-height: 36px; 
     font-family: 'BebasNeueRegular', cursive; 
     color: #008B8B; 
