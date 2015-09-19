@@ -204,8 +204,8 @@ input[type="submit"] {
         linear,
         left bottom,
         left top,
-        color-stop(0.23, #663399),
-        color-stop(0.62, #9370DB)
+        color-stop(0.23, #FFFACD),
+        color-stop(0.62, #FFFFE0)
     );
 }
 
@@ -217,13 +217,8 @@ input[type="submit"]:hover {
         linear,
         left bottom,
         left top,
-        color-stop(0.23, #c34000),
-        color-stop(0.62, #ff5400)
-    );
-    background: -moz-linear-gradient(
-        center bottom,
-        #c34000 23%,
-        #ff5400 62%
+        color-stop(0.23, #8B008B),
+        color-stop(0.62, #800080)
     );
 }
 input[type="submit"]:active { top: 1px; }
