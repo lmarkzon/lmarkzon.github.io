@@ -204,13 +204,8 @@ input[type="submit"] {
         linear,
         left bottom,
         left top,
-        color-stop(0.23, #619702),
-        color-stop(0.62, #7ac000)
-    );
-    background: -moz-linear-gradient(
-        center bottom,
-        #619702 23%,
-        #7ac000 62%
+        color-stop(0.23, #663399),
+        color-stop(0.62, #9370DB)
     );
 }
 
