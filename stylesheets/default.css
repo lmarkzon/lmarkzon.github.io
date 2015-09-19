@@ -143,8 +143,6 @@ h2.contact {
     margin-bottom: .4em;
 }
 
-
-
 p.contact { 
     font-size: 2em; 
     margin-bottom: .4em;
@@ -178,7 +176,7 @@ input, textarea {
     padding: .45em; 
     font-family: Keffeesatz, Arial; 
     color: #4b4b4b; 
-    font-size: 1.4em; -webkit-
+    font-size: 1em; -webkit-
     border-radius: 5px; 
     margin-bottom: 15px; 
     margin-top: -10px; 
