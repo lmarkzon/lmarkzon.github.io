@@ -21,21 +21,24 @@
     </div>
 
     
-    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-      <div class="row">
-        <label for="name">Your name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <form action="/my-handling-form-page" method="post">
+      <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
       </div>
-      <div class="row">
-        <label for="email">Your email:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email" />
       </div>
-      <div class="row">
-        <label for="message">Your message:</label><br />
-        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      <div>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
       </div>
-    <input id="submit_button" type="submit" value="Send email" />
-    </form>           
+    
+      <div class="button">
+        <button type="submit">Send your message</button>
+      </div>
+    </form>       
     
 
     <footer id="social">
