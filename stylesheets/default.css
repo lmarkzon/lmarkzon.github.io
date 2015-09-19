@@ -190,7 +190,7 @@ input:focus, textarea:focus {
 input[type="submit"] { 
     border: none; 
     cursor: pointer; 
-    color: #8B008B  ; 
+    color: #008B8B  ; 
     font-size: 24px; 
     font-weight: bold;
     background-color: #7ac000; 
@@ -211,7 +211,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover { 
-    color: #7ac000; 
+    color: #ff5400; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
     background-color: #ff5400;
     background: -webkit-gradient(
