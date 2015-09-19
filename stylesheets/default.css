@@ -139,7 +139,7 @@ h2.contact {
     color: #008B8B; 
     height: 1.5em; 
     background-image: url("imgs/contact.png")
-    font-family: 'YanoneKaffeesatzRegular';
+    font-family: 'YanoneKaffeesatzRegular', cursive;
 }
 
 p.contact { 
