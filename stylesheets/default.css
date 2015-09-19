@@ -1,3 +1,7 @@
+/*Page Google Fonts: 
+Pacifico, Poiret One, Fontdiner Swanky, 
+Rochester, Parisienne, Gruppo*/
+
 html {
     background-color: #DCDCDC;
 }
@@ -10,7 +14,7 @@ body {
 /*MAIN TITLE AT TOP OF PAGE*/
 h1 {
     color: #FAFAD2;
-    font-family: cursive;
+    font-family: Parisienne, cursive;
     background-color: #333333;
     margin: 0;
     padding-top: 1em;
@@ -20,7 +24,7 @@ h1 {
 
 /*NAVIGATION BAR*/
 #nav {
-	font-family: 'Fontdiner Swanky', cursive;
+	font-family: Poiret One, Cursive;
     width: 100%;
     float: left;
     margin: 0 0 1em 0;
