@@ -139,6 +139,7 @@ h2.contact {
     color: #008B8B; 
     height: 1.5em; 
     font-family: 'YanoneKaffeesatzRegular', cursive;
+    margin-top: -2em;
 }
 
 
@@ -146,7 +147,7 @@ h2.contact {
 p.contact { 
     font-size: 2em; 
     margin-bottom: .4em; 
-    line-height: 36px; 
+    line-height: 1.5em; 
     font-family: 'BebasNeueRegular', cursive; 
     color: #008B8B; 
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
