@@ -213,7 +213,7 @@ input[type="submit"] {
 input[type="submit"]:hover { 
     color: #FFFACD; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
-    background-color: #ff5400;
+    background-color: #008B8B;
     background: -webkit-gradient(
         linear,
         left bottom,
