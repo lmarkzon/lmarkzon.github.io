@@ -1,6 +1,6 @@
 /*"BLOG POSTS" PAGE HEADER*/
 h2 {
-    color: #9fa8a3;
+    color: ##FAFAD2;
     font-family: cursive;
     background-color: #333333;
     margin: 0;
@@ -28,12 +28,13 @@ figcaption {
 
 
 h4 {
-    color: #87CEFA;
+    color: #FFFFE0;
     font-family: cursive;
+    font-size: 1.3em;
     background-color: #333333;
     margin: 0;
     margin-top: -1em;
-    padding-top: 1em;
+    padding-top: .7em;
     padding-left: .5em;
     text-align: center;
 }

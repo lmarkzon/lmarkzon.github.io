@@ -1,5 +1,5 @@
 html {
-    background-color: #c5d5cb;
+    background-color: #DCDCDC;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 /*MAIN TITLE AT TOP OF PAGE*/
 h1 {
-    color: #9fa8a3;
+    color: ##FAFAD2;
     font-family: cursive;
     background-color: #333333;
     margin: 0;
@@ -45,7 +45,7 @@ h1 {
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
-    color: #9fa8a3;
+    color: ##FFFFE0;
 }
 
 #nav li:first-child a {
