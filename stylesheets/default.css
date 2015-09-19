@@ -174,7 +174,7 @@ input, textarea {
     background-color: #F5F5F5; 
     border: .1em solid #800080; 
     padding: .45em; 
-    font-family: Keffeesatz, Arial; 
+    font-family: Keffeesatz, cursive; 
     color: #4b4b4b; 
     font-size: 1em; -webkit-
     border-radius: 5px; 
@@ -190,8 +190,9 @@ input:focus, textarea:focus {
 input[type="submit"] { 
     border: none; 
     cursor: pointer; 
-    color: #fff; 
+    color: #8B008B  ; 
     font-size: 24px; 
+    font-weight: bold;
     background-color: #7ac000; 
     padding: 5px 36px 8px 36px; 
     -webkit-border-radius: 10px; 
@@ -210,7 +211,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover { 
-    color: #fff; 
+    color: #7ac000; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
     background-color: #ff5400;
     background: -webkit-gradient(
