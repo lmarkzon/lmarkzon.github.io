@@ -112,19 +112,18 @@ footer {
     font-style: normal;
 
 }
-/*
+
 body, div, h1, form, fieldset, input, textarea {
     margin: 0; padding: 0; border: 0; outline: none;
 }
-html {
+/*html {
     height: 150%;
 }
 body {
     background: #728eaa;
     background: -moz-linear-gradient(top, #CCC 0%, #728EAA 150%); /* firefox */
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#25303C), color-stop(100%,#728EAA)); /* webkit */*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#25303C), color-stop(100%,#728EAA)); /* webkit */
     /*font-family: sans-serif;*/
-
 .cover {
     background:#CCC;
     width:700px;
