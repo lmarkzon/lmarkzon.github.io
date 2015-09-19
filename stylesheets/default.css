@@ -189,21 +189,21 @@ input[type="submit"] {
     border: none; 
     cursor: pointer; 
     color: #fff; 
-    font-size: 1.6em; 
+    font-size: 24px; 
     background-color: #7ac000; 
-    padding: 5px 36px 8px 36px; -webkit-
-    border-radius: 10px; -moz-
-    border-radius: 10px; -webkit-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+    padding: 5px 36px 8px 36px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
     border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
     border-top: 1px solid rgba(255, 255, 255, 0.6);
     background: -webkit-gradient(
         linear,
         left bottom,
         left top,
-        color-stop(0.23, #008B8B), 
-        color-stop(0.62, #5F9EA0) )
+        color-stop(0.23, #619702),
+        color-stop(0.62, #7ac000)
     );
     background: -moz-linear-gradient(
         center bottom,
@@ -229,7 +229,4 @@ input[type="submit"]:hover {
         #ff5400 62%
     );
 }
-
-input[type="submit"]:active { 
-    top: 1px; 
-}
+input[type="submit"]:active { top: 1px; }
