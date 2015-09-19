@@ -80,11 +80,12 @@ a:visited {
 }
 
 /*PAGE UNDER CONSTRUCTION IMAGE*/
+#construction {
+    text-align: center;
+}
+
 #construction img {
-    margin-left: 15em;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    width: 17.45em;
+    width: 17em;
 }
 
 /*FOOTER AND SOCIAL MEDIA LINKS*/
