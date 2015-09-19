@@ -46,6 +46,8 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     color: #FAFAD2;
+    margin-left: .8em;
+    margin-right: .8em;
 }
 
 #nav li:first-child a {
@@ -187,7 +189,7 @@ input[type="submit"] {
     border: none; 
     cursor: pointer; 
     color: #fff; 
-    font-size: 24px; 
+    font-size: 1.6em; 
     background-color: #7ac000; 
     padding: 5px 36px 8px 36px; -webkit-
     border-radius: 10px; -moz-
@@ -200,8 +202,8 @@ input[type="submit"] {
         linear,
         left bottom,
         left top,
-        color-stop(0.23, #619702),
-        color-stop(0.62, #7ac000)
+        color-stop(0.23, #008B8B), 
+        color-stop(0.62, #5F9EA0) )
     );
     background: -moz-linear-gradient(
         center bottom,
