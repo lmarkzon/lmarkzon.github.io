@@ -57,7 +57,8 @@ h2 {
 
 /*BLOG PARAGRAPH CONTENT HEADERS*/
 h3 {
-    font-family: Trebuchet MS;
+    font-family: Raleway, Trebuchet MS;
+    font-size: 1.5em;
     margin: 0;
     margin-top: -1em;
     padding-top: 1em;
@@ -65,11 +66,12 @@ h3 {
 }
 
 h3 #cssblogname {
-    font-family: Trebuchet MS;
+    font-family: Raleway, Trebuchet MS;
+    font-size: 2em;
 }
 /*BLOG PARAGRAPH CONTENT*/
 article {
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
     text-align: justify; 
     font-size: 15px;
     margin: 0 auto;
