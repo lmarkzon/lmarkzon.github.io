@@ -134,9 +134,9 @@ body {
 h2.contact { 
     text-align: center; 
     font-size: 3.5em; 
-    color: #; 
+    color: #008B8B; 
     height: 1.5em; 
-    background-image: url("imgs/contact.png") no-repeat -10px -10px;
+    background-image: url("imgs/contact.png")
     font-family: 'YanoneKaffeesatzRegular';
 }
 
@@ -145,7 +145,7 @@ p.contact {
     margin-bottom: 15px; 
     line-height: 36px; 
     font-family: 'BebasNeueRegular', Arial; 
-    color: #4b4b4b; 
+    color: #008B8B; 
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
 }
 
@@ -167,12 +167,12 @@ label {
 }
 
 input, textarea { 
-    background-color: rgba(255, 255, 255, 0.4); 
-    border: 5px solid rgba(122, 192, 0, 0.15); 
-    padding: 10px; 
+    background-color: #F5F5F5; 
+    border: .1em solid #800080; 
+    padding: .45em; 
     font-family: Keffeesatz, Arial; 
     color: #4b4b4b; 
-    font-size: 24px; -webkit-
+    font-size: 1.55em; -webkit-
     border-radius: 5px; 
     margin-bottom: 15px; 
     margin-top: -10px; 
