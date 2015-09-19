@@ -7,7 +7,7 @@ section {
 
 figcaption {
     text-align: center;
-    font-family: ;
+    font-family: pacifico, cursive;
     font-weight: bold;
     position: relative;
     font-size: 1em;
@@ -46,7 +46,7 @@ h4 {
 /*"BLOG POSTS" and PAGE TITLES PAGE HEADER*/
 h2 {       
     color: #FAFAD2;        
-    font-family: cursive;      
+    font-family: Voltaire, cursive;      
     background-color: #333333;     
     margin: 0;     
     margin-top: -1em;      
