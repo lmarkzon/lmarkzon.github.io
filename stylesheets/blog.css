@@ -88,3 +88,8 @@ p {
     font-family: Raleway, sans-serif;
     font-size: 1.2em;
 }
+
+span {
+    font-family: monospace;
+    font-size: 1.2em;
+}
