@@ -35,7 +35,7 @@
             <script src="https://gist.github.com/lmarkzon/fd48ac27064faa30cb46.js"></script>
         </p>
         <p>
-          group_by breaks a data collection into groups depending on the given parameters or criteria, by result of the block (see above), but if no block is given an enumerator is returned. 
+          group_by breaks a data collection into groups depending on the given parameters or criteria, by result of the block (see above). It expects a block containing the criteria of how the items in the collection are supposed to be grouped, and returns a hash where each key represents a group. Each of the key's paired value is an array that contains the objects that belong to that group. If no block is given - an enumerator is returned. 
             <script src="https://gist.github.com/lmarkzon/73e30bd75ea442cddd87.js"></script>
         </p>
   </article>
