@@ -29,9 +29,14 @@
     </div>
 
     <article>
-        <h3>Enumerable#group_by</h3>
+      <h3>Enumerable#group_by</h3>
         <p> 
-        The enumerable method group_by
+          The Enumerable is used in Ruby as a way of saying that we are able to get elements out of a data collection, one at a time. It is a module (like a container) used as a mixin, meaning it allows you to write code once and share it between a bunch of "mixed" classes, so you're able to put it in these containers to literally be "mixed in" with your classes. Enumerable provides a number of enumerators, which are tools that you can use to get each of the elements out of a collection in such a way like this. Having methods "return" enumerators allow us to "chain operations indefinitely" and make better collections. An example of one of these methods that make our code better is group_by.
+            <script src="https://gist.github.com/lmarkzon/fd48ac27064faa30cb46.js"></script>
+        </p>
+        <p>
+          group_by breaks a data collection into groups depending on the given parameters or criteria, by result of the block (see above), but if no block is given an enumerator is returned. 
+            <script src="https://gist.github.com/lmarkzon/73e30bd75ea442cddd87.js"></script>
         </p>
   </article>
 
