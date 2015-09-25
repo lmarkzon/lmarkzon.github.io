@@ -107,9 +107,16 @@ a:visited {
 
 /*PIC OF ME*/
 #profpic {
-    float: right;
     height: 10em;
-    border: 1em solid #000000;
+    border: .3em solid #000000;
+}
+
+#michiganpic {
+    height: 15em;
+}
+
+#msupic {
+    height: 15em;
 }
 
 /*ABOUT ME PARAGRAPHS*/
@@ -120,10 +127,9 @@ a:visited {
     font-family: Raleway, sans-serif;
     font-size: 1.3em;
 }
-
-
-#aboutme img {
+#profpic {
     height: 10em;
+    border: .3em solid #000000;
 }
 
 /*PARAGRAPH BOLDED STARTING LINES*/
