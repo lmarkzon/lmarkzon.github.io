@@ -62,14 +62,8 @@ h3 {
     padding-left: 1em;
     padding-top: 1.3em;
 }
-/*BLOG PARAGRAPH CONTENT*/
-article {
-    font-family: Raleway, sans-serif;
-    text-align: justify; 
-    font-size: 15px;
-    margin: 0 auto;
-}
 
+/*BLOG PARAGRAPH CONTENT*/
 p {
     margin-top: .5em;
     margin-left: 1em;
