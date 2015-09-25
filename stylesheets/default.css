@@ -97,36 +97,17 @@ a:visited {
 
 #construction img {
     width: 23.3em;
-<<<<<<< HEAD
 }
 
 /*MAIN WEBSITE/BLOG CONTENT*/
-article {
+#aboutme-section {
     font-family: Raleway, sans-serif;
     text-align: justify; 
     font-size: 15px;
     margin: 0 auto;
 }
 
-p.aboutme {
-    margin-top: .5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    font-family: Raleway, sans-serif;
-    font-size: 1.2em;
-=======
->>>>>>> master
-}
-
-/*MAIN WEBSITE/BLOG CONTENT*/
-article {
-    font-family: Raleway, sans-serif;
-    text-align: justify; 
-    font-size: 15px;
-    margin: 0 auto;
-}
-
-p.aboutme {
+#aboutme {
     margin-top: .5em;
     margin-left: 1em;
     margin-right: 1em;
@@ -206,6 +187,7 @@ h2.contact {
     margin-top: -2em;
     margin-bottom: .4em;
     margin-right: 1.2em;
+    padding-top: .5em;
     background-color: #D3D3D3;
 }
 
