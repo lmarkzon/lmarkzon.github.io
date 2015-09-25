@@ -96,8 +96,25 @@ a:visited {
 }
 
 #construction img {
-    width: 23.2em;
+    width: 23.3em;
 }
+
+/*MAIN WEBSITE/BLOG CONTENT*/
+article {
+    font-family: Raleway, sans-serif;
+    text-align: justify; 
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+p.aboutme {
+    margin-top: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Raleway, sans-serif;
+    font-size: 1.2em;
+}
+
 
 /*FOOTER AND SOCIAL MEDIA LINKS*/
 footer {
@@ -117,7 +134,7 @@ footer {
     margin-top: 2em;
 }
 
-/*CONTACT PAGE FORM*/
+/*CONTACT FORM FONTS IMPORTED*/
 @font-face {
     font-family: 'YanoneKaffeesatzRegular';
     src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot');
@@ -149,6 +166,7 @@ footer {
 
 }
 
+/*CONTACT PAGE CONTACT FORM*/
 body, div, h1, form, fieldset, input, textarea {
     margin: 0; padding: 0; border: 0; outline: none;
 }
@@ -168,6 +186,8 @@ h2.contact {
     font-family: 'YanoneKaffeesatzRegular', cursive;
     margin-top: -2em;
     margin-bottom: .4em;
+    margin-right: 1.2em;
+    background-color: #D3D3D3;
 }
 
 p.contact { 
@@ -197,6 +217,7 @@ label {
     color: #008B8B; 
 }
 
+/*CONTACT FORM USER INPUT TEXT*/
 input, textarea { 
     background-color: #F5F5F5; 
     border: .1em solid #800080; 
@@ -214,6 +235,7 @@ input:focus, textarea:focus {
     background-color: #F5F5F5;
 }
 
+/*CONTACT FORM SUBMIT BUTTON*/
 input[type="submit"] { 
     border: none; 
     cursor: pointer; 
