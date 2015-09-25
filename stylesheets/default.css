@@ -115,8 +115,13 @@ a:visited {
     font-size: 1.3em;
 }
 
-span.para-starter {
+.bold {
     font-weight: bold;
+}
+
+/*WB LINK TO WIKI*/
+#aboutme a:link {
+    text-decoration: none;
 }
 
 /*FOOTER AND SOCIAL MEDIA LINKS*/
