@@ -78,6 +78,7 @@ h2 {
 a:visited {
     color: #008B8B;
 }
+
 /*HOME CENTERED IMAGES*/
 #imagerow {
     text-align: center;
@@ -99,14 +100,15 @@ a:visited {
     width: 23.3em;
 }
 
-/*MAIN WEBSITE/BLOG CONTENT*/
+/*ABOUT ME MAIN SECTION*/
 #aboutme-article {
-    font-family: Raleway, sans-serif;
     text-align: justify; 
-    font-size: 15px;
-    margin: 0 auto;
 }
 
+#aboutme-article img {
+    
+}
+/*ABOUT ME PARAGRAPHS*/
 #aboutme {
     margin-top: .5em;
     margin-left: 1em;
@@ -115,11 +117,13 @@ a:visited {
     font-size: 1.3em;
 }
 
+/*PARAGRAPH BOLDED STARTING LINES*/
 .bold {
     font-weight: bold;
+    font-size: 1.1em;
 }
 
-/*WB LINK TO WIKI*/
+/*IMAGE LINKS*/
 #aboutme a:link {
     text-decoration: none;
 }
