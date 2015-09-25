@@ -112,9 +112,12 @@ a:visited {
     margin-left: 1em;
     margin-right: 1em;
     font-family: Raleway, sans-serif;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
+#para-starter {
+    font-weight: bold;
+}
 
 /*FOOTER AND SOCIAL MEDIA LINKS*/
 footer {
