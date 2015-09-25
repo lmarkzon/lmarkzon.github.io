@@ -106,8 +106,10 @@ a:visited {
 }
 
 /*PIC OF ME*/
-#aboutme-article img {
-    text-align: right;
+#profpic {
+    float: right;
+    height: 10em;
+    border: 1em solid #000000;
 }
 
 /*ABOUT ME PARAGRAPHS*/
