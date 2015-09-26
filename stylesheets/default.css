@@ -153,8 +153,8 @@ p.aboutme {
 #msupic {
     height: 15em;
     float: right;
-    margin: .5em;
-    margin-top: -1.5em;
+    margin: em;
+    margin-top: em;
 }
 
 /*IMAGE LINKS*/
