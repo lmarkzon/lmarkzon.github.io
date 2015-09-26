@@ -119,8 +119,8 @@ a:visited {
 
 /*ABOUT ME PARAGRAPHS*/
 p.aboutme {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: .2em;
+    margin-bottom: .2em;
     margin-left: 1em;
     margin-right: 1em;
     font-family: Raleway, sans-serif;
@@ -138,7 +138,7 @@ p.aboutme {
     height: 10em;
     border: .3em solid #000000;
     float: right;
-    margin-top: -.5em;
+    margin-top: .4em;
     margin-bottom: -.5em;
     margin-left: 1em;
     margin-right: 1em;
@@ -154,7 +154,7 @@ p.aboutme {
     height: 12em;
     float: right;
     margin: 1em;
-    margin-top: -1.5em;
+    margin-top: -1em;
 }
 
 /*IMAGE LINKS*/
