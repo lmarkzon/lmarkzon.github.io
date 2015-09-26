@@ -24,7 +24,7 @@ h1 {
 }
 
 span.enlarge {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 /*"BLOG POSTS" and PAGE HEADERS*/
@@ -113,6 +113,9 @@ a:visited {
 #profpic {
     height: 10em;
     border: .3em solid #000000;
+    margin-left: 65em;
+    margin-top: -.5em;
+    margin-bottom: -.5em;
 }
 
 #michiganpic {
@@ -124,7 +127,15 @@ a:visited {
 }
 
 /*ABOUT ME PARAGRAPHS*/
-#aboutme {
+#aboutmep1 {
+    margin-top: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Raleway, sans-serif;
+    font-size: 1.3em;
+}
+
+p.aboutme {
     margin-top: .5em;
     margin-left: 1em;
     margin-right: 1em;
