@@ -11,7 +11,7 @@ body {
     margin-top: -1em;
 }
 
-/*MAIN TITLE AT TOP OF PAGE*/
+/*MY NAME AT TOP OF PAGE*/
 h1 {
     color: #FAFAD2;
     font-family: Parisienne, cursive;
@@ -21,6 +21,10 @@ h1 {
     padding-left: .5em;
     text-align: center;
     font-size: 2.5em;
+}
+
+span.enlarge {
+    font-size: 1.5em;
 }
 
 /*"BLOG POSTS" and PAGE HEADERS*/
@@ -100,7 +104,7 @@ a:visited {
     width: 23.3em;
 }
 
-/*ABOUT ME MAIN SECTION*/
+/*ABOUT ME: MAIN SECTION OF SITE*/
 #aboutme-article {
     text-align: justify; 
 }
