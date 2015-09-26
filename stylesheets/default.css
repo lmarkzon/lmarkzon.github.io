@@ -154,6 +154,7 @@ p.aboutme {
     height: 15em;
     float: right;
     margin: .5em;
+    margin-top: -1.5em;
 }
 
 /*IMAGE LINKS*/
