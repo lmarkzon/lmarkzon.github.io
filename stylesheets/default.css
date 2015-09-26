@@ -127,10 +127,6 @@ a:visited {
     font-family: Raleway, sans-serif;
     font-size: 1.3em;
 }
-#profpic {
-    height: 10em;
-    border: .3em solid #000000;
-}
 
 /*PARAGRAPH BOLDED STARTING LINES*/
 .bold {
