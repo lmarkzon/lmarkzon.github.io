@@ -12,6 +12,7 @@ figcaption {
     position: relative;
     font-size: 1em;
     margin-top: 5em;
+    margin-bottom: 1em;
 }
 
 figcaption a:link {
