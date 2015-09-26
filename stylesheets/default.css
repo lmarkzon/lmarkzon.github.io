@@ -109,21 +109,12 @@ a:visited {
     text-align: justify; 
 }
 
-/*PIC OF ME*/
-#profpic {
-    height: 10em;
-    border: .3em solid #000000;
-    margin-left: 65em;
-    margin-top: -.5em;
-    margin-bottom: -.5em;
-}
-
-#michiganpic {
-    height: 15em;
-}
-
-#msupic {
-    height: 15em;
+.subheader {
+    font-family: Raleway, Trebuchet MS;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-top: 1.3em;
 }
 
 /*ABOUT ME PARAGRAPHS*/
@@ -133,6 +124,7 @@ a:visited {
     margin-right: 1em;
     font-family: Raleway, sans-serif;
     font-size: 1.3em;
+
 }
 
 p.aboutme {
@@ -147,6 +139,23 @@ p.aboutme {
 .bold {
     font-weight: bold;
     font-size: 1.1em;
+}
+
+/*ABOUT ME PICS*/
+#profpic {
+    height: 10em;
+    border: .3em solid #000000;
+    margin-right: -;
+    margin-top: -.5em;
+    margin-bottom: -.5em;
+}
+
+#michiganpic {
+    height: 15em;
+}
+
+#msupic {
+    height: 15em;
 }
 
 /*IMAGE LINKS*/

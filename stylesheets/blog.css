@@ -79,6 +79,6 @@ p {
     font-size: 1.2em;
 }
 
-span {
+span #monospace {
     font-family: monospace;
 }
