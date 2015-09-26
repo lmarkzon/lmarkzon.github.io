@@ -145,13 +145,14 @@ p.aboutme {
 #profpic {
     height: 10em;
     border: .3em solid #000000;
-    margin-right: -;
+    float: right;
     margin-top: -.5em;
     margin-bottom: -.5em;
 }
 
 #michiganpic {
     height: 15em;
+    float: left;
 }
 
 #msupic {
