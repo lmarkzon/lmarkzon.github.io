@@ -39,25 +39,25 @@
         <h3 class="subheader">Instance and Class Variables</h3>
         <p> 
           Variables contain the data that's stored in objects. When variables are defined inside of a method, they are also scoped to the method. They come into existence brand new each time the method runs, and then disappears when the method ends. Instance Variables, prefixed <span class="monospace">@instancevariable</span> with one symbol, and are scoped to the class. They can be accessed from any method within that class, and keep their value between method calls. Class Variables are tied to the class so there is only one total value, opposed to how Instance Variables have one for each and every instance/occurrence. Class variables are prefixed <span class="monospace">@@classvariables</span> with two symbols instead of one, and are not as common as instance variables. To create an Instance you can call a method on the class new, such as <span class="monospace">"string = String.new"</span>. Objects of most classes can be created by also calling new(). See both in action below and see the <span class="monospace">#comments</span> for the line-by-line breakdown:
-          <script src="https://gist.github.com/lmarkzon/c0427787d2db5bae8e51.js" class="gist-snippet"></script>
+          <script src="https://gist.github.com/lmarkzon/c0427787d2db5bae8e51.js"></script>
         </p>
 
         <h3 class="subheader">Instance and Class Methods</h3>
         <p> 
           Instance Methods are called through a particular instance, such as <span class="monospace">“Hello”.size( )</span>, and can access pretty much anything in its class. This includes reading and writing instance and/or class variables and calling other instance methods or class methods. They also have read-access to a special value called “self", which keeps a reference of the particular object the method was called on. Class Methods are called through the particular class, so you don't need an instance, and they're less common than instance methods. They are prefixed with the class name or <span class="monospace">'self'.</span>. Since you don't need an instance to call these methods, they can't access instance variables/methods, can't refer to 'self', they can only operate on class variables and whatever arguments are supplied to them when they're called.
-          <script src="https://gist.github.com/lmarkzon/27d052259dfaa6763026.js" class="gist-snippet"></script>
+          <script src="https://gist.github.com/lmarkzon/27d052259dfaa6763026.js"></script>
         </p>
         
         <h3 class="subheader">Special Instance Method: Initialize</h3>
         <p>
          There is a Special Instance Method called a Constructor and different coding languages all have different mechanisms for defining them. In ruby it's a special instance method called <span class="monospace">initialize()</span>, when an instance of the class is created, initialize automatically runs. Parameters can be added to initialize, and you'll also need to pass those parameters to the constructor 'new' like this: <span class="monospace">my_array = Array.new(5)</span>. Five will be passed to initialize and this will create an array with 5 nil elements. The purpose of this is to do any "set up" needed, usually sets the starting values for instance variables. 
-          <script src="https://gist.github.com/lmarkzon/164c7743130b929954bf.js" class="gist-snippet"></script>
+          <script src="https://gist.github.com/lmarkzon/164c7743130b929954bf.js"></script>
         </p>
 
         <h3 class="subheader">All Together Now</h3>
         <p> 
           Final Product...
-          <script src="https://gist.github.com/lmarkzon/c7aa944b979aedf096fe.js" class="gist-snippet"></script>
+          <script src="https://gist.github.com/lmarkzon/c7aa944b979aedf096fe.js"></script>
         </p>
   </article>
 
