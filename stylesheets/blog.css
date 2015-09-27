@@ -83,3 +83,7 @@ p {
 span #monospace {
     font-family: monospace;
 }
+
+#plantsimg {
+    border: 1px solid #000000;
+}
