@@ -86,4 +86,7 @@ span #monospace {
 
 #plantsimg {
     float: right;
+    height: 6em;
+    margin-top: -.9em;
+    margin-right: 5em;
 }
