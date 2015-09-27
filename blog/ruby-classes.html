@@ -32,19 +32,20 @@
         <h3>Ruby Classes</h3>
         <h3 class="subheader">Classes vs Objects</h3>
         <p> 
-          As you may already know, Ruby is object-oriented and so everything in Ruby is an object. To understand what that really means, let's go over the difference between an object and a class. Classes define the behaviors of the objects in Ruby. A class is like a blueprint, once it's created you can use it to build as many "houses" as you'd like. Objects are instances of a class and have their own data, each object "remembers" it's class and the parameters that go with it. For example, a string is a class and an object within that class could be the specific string "hello!". 
-
-          
+          As you may already know, Ruby is object-oriented and so everything in Ruby is an object. To understand what that really means, let's go over the difference between an object and a class. Classes define the behaviors of the objects in Ruby. A class is like a blueprint, once it's created you can use it to build as many "houses" as you'd like. An Object is an instance of a class, it has its own data and "knows" its class, including the behaviors that go with it. When objects are defined inside of a method, they are scoped to the method, and disappear when the method ends. For example, a string is a class and an object within that class could be the specific string "hello!".           
         </p>
 
         <h3 class="subheader">Instance and Class Variables</h3>
         <p> 
-          2...
+          Variables contain the data that's stored in objects. When variables are defined inside of a method, they are also scoped to the method. They come into existence brand new each time the method runs, and then disappears when the method ends. Instance Variables, prefixed with an @ symbol, are scoped to the class and can be accessed from any method within that class
+
+          <script src="https://gist.github.com/lmarkzon/c0427787d2db5bae8e51.js"></script>
         </p>
 
         <h3 class="subheader">Instance and Class Methods</h3>
         <p> 
           3...
+          <script src="https://gist.github.com/lmarkzon/27d052259dfaa6763026.js"></script>
         </p>
         
         <h3 class="subheader">Special Instance Method: Initialize</h3>
@@ -55,6 +56,8 @@
         <h3 class="subheader">Creating Classes and Objects</h3>
         <p> 
           5...
+
+          <script src="https://gist.github.com/lmarkzon/c7aa944b979aedf096fe.js"></script>
         </p>
   </article>
 
