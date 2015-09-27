@@ -90,3 +90,7 @@ span #monospace {
     margin-top: -.9em;
     margin-right: 5em;
 }
+
+.gist-snippet {
+    margin: .5em;
+}
