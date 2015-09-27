@@ -80,7 +80,7 @@ p {
     font-size: 1.2em;
 }
 
-span #monospace {
+span.monospace {
     font-family: monospace;
 }
 
