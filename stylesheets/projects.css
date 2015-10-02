@@ -8,6 +8,10 @@
     margin-bottom: 1em;
 }
 
+#project-links img {
+	border-radius: 50%;
+}
+
 #project-links a:link {
     text-decoration: none;
     font-size: 1.6em;
