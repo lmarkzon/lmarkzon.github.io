@@ -21,4 +21,5 @@
 
 #project-links a:hover {
     text-decoration: none;
+    text-shadow: 2px 2px #DAA520;
 }
