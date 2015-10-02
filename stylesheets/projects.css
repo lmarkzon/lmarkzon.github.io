@@ -1,0 +1,15 @@
+#project-links a:link {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #008B8B;
+}
+
+#project-links a:visited {
+    text-decoration: none;
+    color: #800080;
+}
+
+#project-links a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px #DAA520;
+}
