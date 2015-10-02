@@ -4,12 +4,13 @@
     font-weight: bold;
     position: relative;
     font-size: 1em;
-    margin-top: 2.5em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
 #project-links img {
 	border-radius: 50%;
+	height: 8em;
 }
 
 #project-links a:link {
