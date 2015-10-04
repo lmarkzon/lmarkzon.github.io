@@ -94,3 +94,8 @@ span.monospace {
 script.gist-snippet {
     margin: .5em;
 }
+
+p #vocab    {
+    margin-top: 1.5em;
+    font-size: .5em;
+}
