@@ -32,23 +32,25 @@
         <h3>JavaScript Objects vs Ruby Hashes</h3>
           <h3 class="subheader">Creating and Accessing JavaScript Objects</h3>
           <p>
-            Similar to Ruby, in JavaScript (JS) almost "everything" is an object. A JS object is an unordered collection (container) of variables, which are named values called object <span class="monospace">properties</span>. Objects in JS can contain single values or multiple values, and properties can be both *primitive values, other objects, and even functions. So JS objects can act as containers for named values, called properties, and **methods. In JS you can define and create your own objects, and there are three different ways you can do this. <span class="monospace">Object Literal</span> is the easiest way to create a JS object because you can both define and create an object with just one statement. It is a list of name:value pairs inside curly braces as seen above. So you can see that there is no need to use the keyword <span class="monospace">new Object()</span> for the reasons of simplicity, readability, and execution speed. Finally, using an <span class="monospace">Object Constructor</span> is the standard way to create an "object type", and using an "object type" allows us to create multiple objects of this type. See these in action below, you can also see that you use a semi-colon to end a statement in JS:
+            Similar to Ruby, in JavaScript (JS) almost "everything" is an object. A JS object is an unordered collection (container) of variables, which are named values called object <span class="monospace">properties</span>. Objects in JS can contain single values or multiple values, and properties can be both *primitive values, other objects, and even functions. So JS objects can act as containers for named values, called properties, and **methods. In JS you can define and create your own objects, and there are three different ways you can do this. See these in action below, and their explanations are below the snippet. You can also see in the examples that you use a semi-colon to end a statement in JS:
             <script src="https://gist.github.com/lmarkzon/a42f27397b35ce3e706e.js"></script>
           </p>
           <p>
-            Let's compare this to a real world example, such as a bike. A bike is an object, it has properties such as color and size, and methods such as pedal and turn. All bikes have properties, but the values of those properties differ with every bike, for example all bikes are a color and size, but they're NOT all the same color and size - they're all different. And all bikes can pedal and turn, but they do not all pedal and turn at the same time. 
+            <span class="monospace">Object Literal</span> is the easiest way to create a JS object because you can both define and create an object with just one statement. It is a list of name:value pairs inside curly braces as seen above. So you can see that there is no need to use the keyword <span class="monospace">new Object()</span> for the reasons of simplicity, readability, and execution speed. Finally, using an <span class="monospace">Object Constructor</span> is the standard way to create an "object type", and using an "object type" allows us to create multiple objects of this type. Now you'll want to access them, and there are two ways you can access object properties in JavaScript, using dot notation and bracket notation, as seen below:
+            <script src="https://gist.github.com/lmarkzon/cea3595700c24422cea9.js"></script>
           </p>
         <h3 class="subheader">Creating and Accessing Ruby Hashes</h3>
           <p>
-            Ruby Hashes are an easy way to represent unordered collections of data in the form of unique key and value pairs. They are often used to have named arguments/parameters in ruby methods/functions. Hashes enumerate their values in the order that the corresponding keys were given, contained in curly brackets as seen below. You can create a hash through its new method, <span class="monospace">hashname = Hash.new</span>. Or a hash can be simply created by using its implicit form:<script src="https://gist.github.com/lmarkzon/583a168630b87a52a553.js"></script>
+            Ruby Hashes are an easy way to represent unordered collections of data in the form of unique key and value pairs. They are often used to have named arguments/parameters in ruby methods/functions. Hashes enumerate their values in the order that the corresponding keys were given, contained in curly brackets. You can create a hash through its new method, <span class="monospace">hashname = Hash.new</span>. Or a hash can be simply created by using its implicit form, as seen below. <script src="https://gist.github.com/lmarkzon/583a168630b87a52a553.js"></script>
           </p>
           <p>
-            You can also use an alternate style of syntax when your hash keys are always symbols, seen below. To access a value in a hash, you use its key as seen in the examples below.
+            You can also use an alternate style of syntax when your hash keys are always symbols, seen below: To access a value in a Ruby hash, you use its key as seen in the examples above and below. You'll notice that in Ruby, you can only use brackets to access a value in a hash(check out the comments!).
             <script src="https://gist.github.com/lmarkzon/abd123aa664d4523c4b8.js"></script>
           </p>
           <p class="vocab">
-            *Primitive values are strings ("hello"), numbers (2.6), true, false, null, and undefined.
-            **JS methods are actions that can be performed on objects, so an object method is an object property containing a function definition.
+            *Primitive values are strings ("hello"), numbers (2.6), true, false, null, and undefined.<br>
+            **JS methods are actions that can be performed on objects, so an object method is an object property containing a function definition.<br>
+            ***Ruby comments are # and JavaScript Ccomments are // in snippets shown.
           </p>
     </article>
 
