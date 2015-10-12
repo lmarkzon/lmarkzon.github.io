@@ -109,7 +109,11 @@ script.gist-snippet {
 .best-practices {
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: .5em;
+    margin-top: -.5em;
     font-family: Raleway, sans-serif;
     font-size: 1.2em;
 }
+
+.best-practices dt {
+    font-weight: bold;
+    }
