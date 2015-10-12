@@ -106,7 +106,7 @@ script.gist-snippet {
     color: #008B8B;
 }
 
-dl #best-practices {
+.best-practices {
     margin-left: 1em;
     margin-right: 1em;
     margin-top: .5em;
