@@ -24,107 +24,109 @@
     </div>
 
     <section id="cheatsheet-content">
-      <table id="ruby-table" style="width:85%" >
+      <table id="ruby-table" style="width:100%" >
       <caption>Ruby BASICS Cheat Sheet</caption>
         <tr>
           <th>Concept</th>
-          <th>Usage</th>
+          <th>Syntax</th>
           <th>Description</th>
         </tr>
         <tr>
           <td>Comment</td> 
           <td># I am a comment!</td>
-          <td>Ruby ignores everything that is marked as a comment</td>
+          <td>Ruby ignores everything that is marked as a comment.</td>
         <tr>
           <td>Variables</td>
-          <td>data</td>
-          <td>data</td>
+          <td>variablename = some_value</td>
+          <td>A variable can hold almost any type of value including numbers, strings, arrays, and hashes.</td>
         </tr>
         <tr>
           <td>p</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>p 2 + 2</td>
+          <td>Returns the evaluated code and prints to the console.</td>
         </tr>
         <tr>
           <td>puts</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>puts "Text to output"</td>
+          <td>Returns nil and prints the output to the console with a new line.</td>
         </tr>
         <tr>
           <td>print</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>print "Printed string here!"</td>
+          <td>Returns nil and prints the output to the console.</td>
         </tr>
         <tr>
           <td>Call a method</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>object.method(arguments)</td>
+          <td>We are sending the object some kind of message/command and are waiting for its response. It may have no arguments or multiple arguments, depending on the message. </td>
         </tr>
         <tr>
           <td>Define a method</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>def name(parameter)
+              puts "Hey" + parameter
+              end</td>
+          <td>Methods are basically reuseable units of behavior, small and focused on implementing that specific behaviour.</td>
         </tr>
         <tr>
           <td>Equality</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>object == anotherobject</td>
+          <td>With two equal signs you can check if two things are the same. If so, true will be returned; otherwise, the result will be false.</td>
         <tr>
           <td>Inequality</td>
-          <td>data</td>
-          <td>data</td>
+          <td>object != anotherobject</td>
+          <td>Inequality is the inverse to equality, it results in true when two values are not the same and it results in false when they are the same.</td>
         </tr>
         <tr>
           <td>Integer</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>5, 26, 75</td>
+          <td>A whole number, or a number that does not contain any decimal points.</td>
         </tr>
         <tr>
           <td>Float</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>5.6, 72.33, 100.1</td>
+          <td>Short for floating-point numbers, floats are numbers that contain decimal points (are not whole numbers).</td>
         </tr>
         <tr>
           <td>Boolean</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>true & false</td>
+          <td>In Ruby, there are two boolean values: true and false. You use logical operators (below) to compare to boolean values.</td>
         </tr>
         <tr>
           <td>String</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>"I am a string of text!"</td>
+          <td>Used to hold textual information. May contain single characters, words, sentences or a whole book. However you may, just think of them as an ordered collection of characters.</td>
         </tr>
         <tr>
           <td>Add/Subtract/Multiply/Divide</td>
-          <td>data</td>
-          <td>data</td>
+          <td>+ - * /</td>
+          <td>These are the arithmetic operators available in Ruby, for more information on these see the link at the bottom of the page to the ruby docs.</td>
         </tr>
         <tr>
           <td>exponentiation</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>5**2 = 25</td>
+          <td>This is how you square (or get the power of) a number in Ruby.</td>
         </tr>
         <tr>
           <td>modulus</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>7 % 3 = 1</td>
+          <td>Gives you the remainder after division by a number. So for the example shown, 7 / 3 = 2 with a remainder of 1.</td>
         </tr>
         <tr>
-          <td>Comparison Operators</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>Other Comparison Operators</td> 
+          <td> > >= < <= </td>
+          <td>Greater than, greater than or equal to, less than, & less than or equal to are additional comparison operators (in addition to equality and inequality listed above. Ruby compares strings in lexicographical ordering.</td>
         </tr>
         <tr>
           <td>and</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>boolean1 && boolean2</td>
+          <td>Another logical operator used to compare boolean values in Ruby.</td>
         </tr>
         <tr>
           <td>or</td> 
-          <td>data</td>
-          <td>data</td>
+          <td>boolean1 || boolean2</td>
+          <td>Another logical operator used to compare boolean values in Ruby.</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td>if & else</td> 
           <td>data</td>
           <td>data</td>
@@ -143,7 +145,7 @@
           <td>Hash</td> 
           <td>data</td>
           <td>data</td>
-        </tr>
+        </tr> -->
       </table>
       <p>
         <a href="http://ruby-doc.org/" target="_blank" class="rubydoc-link">For more on Ruby, check out the Ruby Docs here!</a>
