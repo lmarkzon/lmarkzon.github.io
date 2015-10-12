@@ -43,3 +43,8 @@
 .rubydoc-link {
     text-decoration: none;
 }
+
+.rubydoc-link a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px #DAA520;
+}
