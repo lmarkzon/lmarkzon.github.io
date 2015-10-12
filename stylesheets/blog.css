@@ -105,3 +105,9 @@ script.gist-snippet {
     font-size: 1.6em;
     color: #008B8B;
 }
+
+#best-practices {
+    margin: 1em;
+    font-family: Raleway, sans-serif;
+    font-size: 1.2em;
+}
