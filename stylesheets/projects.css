@@ -10,6 +10,7 @@
 	height: 11.2em;
 	margin-left: 3em;
     margin-right: 3em;
+    box-shadow: .5em .5em .4em #888888;
 }
 
 #project-links a:link {
