@@ -6,7 +6,7 @@
 }
 
 #project-links img {
-	border-radius: 50%;
+	border-radius: 100%;
 	height: 11.2em;
 	margin-left: 3em;
     margin-right: 3em;
@@ -30,3 +30,7 @@
 }
 
 /*RUBY CHEAT SHEET PAGE*/
+#ruby-table {
+    text-align: center;
+    border: .3em solid black;
+}
