@@ -30,8 +30,16 @@
 }
 
 /*RUBY CHEAT SHEET PAGE*/
+#cheatsheet-content {
+    margin: .7em;
+    font-family: Raleway, sans-serif;
+}
+
 #ruby-table {
     border: .1em solid black;
     text-align: center;
-    font-family: Raleway, sans-serif;
+}
+
+.rubydoc-link {
+    text-decoration: none;
 }
