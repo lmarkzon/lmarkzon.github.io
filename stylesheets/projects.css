@@ -31,6 +31,7 @@
 
 /*RUBY CHEAT SHEET PAGE*/
 #ruby-table {
+    border: .1em solid black;
     text-align: center;
-    border: .3em solid black;
+    font-family: Raleway, sans-serif;
 }
