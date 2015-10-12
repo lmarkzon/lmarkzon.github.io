@@ -99,3 +99,9 @@ script.gist-snippet {
     margin-top: 1.5em;
     font-size: .9em;
 }
+
+#techlink a:link {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #008B8B;
+}
