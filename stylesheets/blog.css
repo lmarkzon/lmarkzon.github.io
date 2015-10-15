@@ -1,4 +1,8 @@
 /*BLOG INDEX LINKS*/
+#wrapper {
+    
+}
+
 #blog-index {
     top: 33%;
     left: 33%;
@@ -29,6 +33,10 @@
 .links a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
+}
+
+#blogpost {
+    float: 
 }
 
 /*BLOG DATES*/
