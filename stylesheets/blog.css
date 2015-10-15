@@ -3,19 +3,18 @@
     position: relative;
 }
 
-#blog-index {
+#blog-index a {
     top: 33%;
     left: 33%;
     line-height: 2.5em;
+    text-align: center;
     /*margin-top: 2.5em;
     margin-bottom: 1em;*/
 }
 
 #blog-index a:link {
-    text-align: center;
     font-family: pacifico, cursive;
     font-weight: bold;
-    position: relative;
     text-decoration: none;
     font-size: 1.6em;
     color: #008B8B;
