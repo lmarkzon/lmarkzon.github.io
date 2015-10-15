@@ -1,31 +1,31 @@
 /*BLOG INDEX LINKS*/
-#wrapper {
-    position: relative;
-}
-
-#blog-index a {
+#blog-index {
     top: 33%;
     left: 33%;
     line-height: 2.5em;
-    text-align: center;
-    /*margin-top: 2.5em;
-    margin-bottom: 1em;*/
 }
 
-#blog-index a:link {
+li {
+    text-align: center;
     font-family: pacifico, cursive;
     font-weight: bold;
+    position: relative;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+li a:link {
     text-decoration: none;
     font-size: 1.6em;
     color: #008B8B;
 }
 
-#blog-index a:visited {
+li a:visited {
     text-decoration: none;
     color: #800080;
 }
 
-#blog-index a:hover {
+li a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
 }
