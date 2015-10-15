@@ -5,11 +5,11 @@ section {
     line-height: 2.5em;
 }
 
-#blog-index {
+aside #blog-index {
   position: relative;
 }
 
-#blog-index a:link {
+aside #blog-index a:link {
     text-align: center;
     text-decoration: none;
     font-size: 1.6em;
@@ -21,12 +21,12 @@ section {
     margin-bottom: 1em;
 }
 
-#blog-index a:visited {
+aside #blog-index a:visited {
     text-decoration: none;
     color: #800080;
 }
 
-#blog-index a:hover {
+aside #blog-index a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
 }
