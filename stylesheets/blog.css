@@ -5,7 +5,7 @@ section {
     line-height: 2.5em;
 }
 
-figcaption {
+#blog-index {
     text-align: center;
     font-family: pacifico, cursive;
     font-weight: bold;
@@ -15,18 +15,18 @@ figcaption {
     margin-bottom: 1em;
 }
 
-figcaption a:link {
+#blog-index a:link {
     text-decoration: none;
     font-size: 1.6em;
     color: #008B8B;
 }
 
-figcaption a:visited {
+#blog-index a:visited {
     text-decoration: none;
     color: #800080;
 }
 
-figcaption a:hover {
+#blog-index a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
 }
