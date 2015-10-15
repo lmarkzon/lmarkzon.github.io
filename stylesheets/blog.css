@@ -1,6 +1,10 @@
 /*BLOG INDEX LINKS*/
 #wrapper {
-    
+
+}
+
+#blogpost {
+    float: 
 }
 
 #blog-index {
@@ -33,10 +37,6 @@
 .links a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
-}
-
-#blogpost {
-    float: 
 }
 
 /*BLOG DATES*/
