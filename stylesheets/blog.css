@@ -1,15 +1,18 @@
 /*BLOG INDEX LINKS*/
+#wrapper {
+    line-height: 2.5em;
+}
+
 #blog-index {
     text-align: center;
     font-family: pacifico, cursive;
-    position: relative;
     margin-top: 2.5em;
     margin-bottom: 1em;
 }
 
 #blog-index a:link {
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-decoration: none;
     color: #008B8B;
 }
