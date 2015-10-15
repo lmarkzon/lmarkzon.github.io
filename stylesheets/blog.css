@@ -31,6 +31,10 @@ section {
     text-shadow: 2px 2px #DAA520;
 }
 
+#index-wrapper {
+    margin: 0;
+}
+
 /*BLOG DATES*/
 h4 {
     color: #FFFFE0;
