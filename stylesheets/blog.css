@@ -5,7 +5,7 @@
     line-height: 2.5em;
 }
 
-li {
+.links {
     text-align: center;
     font-family: pacifico, cursive;
     font-weight: bold;
@@ -14,18 +14,18 @@ li {
     margin-bottom: 1em;
 }
 
-li a:link {
+.links a:link {
     text-decoration: none;
     font-size: 1.6em;
     color: #008B8B;
 }
 
-li a:visited {
+.links a:visited {
     text-decoration: none;
     color: #800080;
 }
 
-li a:hover {
+.links a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
 }
