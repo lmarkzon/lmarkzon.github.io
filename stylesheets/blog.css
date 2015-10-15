@@ -6,16 +6,16 @@ section {
 }
 
 #blog-index {
-  text-align: center;
+  position: relative;
 }
 
 #blog-index a:link {
+    text-align: center;
     text-decoration: none;
     font-size: 1.6em;
     color: #008B8B;
     font-family: pacifico, cursive;
     font-weight: bold;
-    position: relative;
     font-size: 1em;
     margin-top: 2.5em;
     margin-bottom: 1em;
