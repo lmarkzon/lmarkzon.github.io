@@ -1,29 +1,19 @@
-/*BLOG POSTS INDEX*/
+/*BLOG INDEX LINKS*/
 #wrapper {
 
-}
-
-#blogpost {
-    float: 
 }
 
 #blog-index {
     top: 33%;
     left: 33%;
     line-height: 2.5em;
-    text-align: center;
-}
-
-/*individual blog post page nav bar*/
-#post-index {
-    line-height: 2em;
-    float: left;
-    padding: .5em;
-    width: 25%;
 }
 
 .links {
+    text-align: center;
     list-style-type: none;
+    font-family: pacifico, cursive;
+    font-weight: bold;
     position: relative;
     margin-top: 2.5em;
     margin-bottom: 1em;
@@ -31,8 +21,6 @@
 
 .links a:link {
     text-decoration: none;
-    font-weight: bold;
-    font-family: pacifico, cursive;
     font-size: 1.6em;
     color: #008B8B;
 }
