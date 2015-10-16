@@ -35,13 +35,19 @@
     text-shadow: 2px 2px #DAA520;
 }
 
+.next {
+    font-family: pacifico, cursive;
+    font-weight: bold;
+}
+
 .next a:link {
     text-decoration: none;
+
 }
 
 .next a:hover {
     text-decoration: none;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #333333;
 }
 /*BLOG DATES*/
 h4 {
