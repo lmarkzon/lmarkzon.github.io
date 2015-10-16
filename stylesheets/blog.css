@@ -38,16 +38,14 @@
 .next {
     font-family: pacifico, cursive;
     font-weight: bold;
-}
-
-.next a:link {
+    font-size: 2em;
     text-decoration: none;
-
+    padding-left: 75%;
 }
 
 .next a:hover {
     text-decoration: none;
-    text-shadow: 2px 2px #333333;
+    text-shadow: 0.1em 0.1em #333;
 }
 /*BLOG DATES*/
 h4 {
