@@ -11,6 +11,15 @@
     top: 33%;
     left: 33%;
     line-height: 2.5em;
+    text-align: center;
+}
+
+/*individual blog post page nav bar*/
+#post-index {
+    line-height: 2em;
+    float: left;
+    padding: .5em;
+    width: 25%;
 }
 
 .links {
@@ -36,13 +45,6 @@
 .links a:hover {
     text-decoration: none;
     text-shadow: 2px 2px #DAA520;
-}
-
-/*individual blog post page nav bar*/
-#post-index {
-    line-height: 1em;
-    float: left;
-    padding: .5em;
 }
 
 /*BLOG DATES*/
