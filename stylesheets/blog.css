@@ -35,6 +35,14 @@
     text-shadow: 2px 2px #DAA520;
 }
 
+.next a:link {
+    text-decoration: none;
+}
+
+.next a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px #000000;
+}
 /*BLOG DATES*/
 h4 {
     color: #FFFFE0;
