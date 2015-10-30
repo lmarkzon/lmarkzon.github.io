@@ -147,7 +147,8 @@ p.aboutme {
 #michiganpic {
     height: 15em;
     float: left;
-    margin: .5em;
+    margin-right: 1em;
+    margin-left: 1.5em;
 }
 
 #msupic {
