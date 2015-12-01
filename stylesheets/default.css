@@ -151,15 +151,15 @@ p.aboutme {
 #michiganpic {
     height: 15em;
     float: left;
-    margin: 1em 1em 1em -3em;
+    margin: 0 1em 1em -3em;
     margin-right: 1em;
-    margin-left: -3em;
+    margin-left: 1em;
 }
 
 #msupic {
     height: 8em;
     float: right;
-    margin-right: -2em;
+    margin-right: -2em 1em 0 1em;
 }
 
 /*IMAGE LINKS*/
@@ -175,6 +175,7 @@ footer {
     width: 100%;
     height: 6em;
     position: relative;
+    margin-top: 1em;
 }
 
 #social img {
