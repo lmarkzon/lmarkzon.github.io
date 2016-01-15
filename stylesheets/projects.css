@@ -5,13 +5,13 @@
     font-weight: bold;
 }
 
-#project-links img {
+/*#project-links img {
 	border-radius: 100%;
 	height: 11.2em;
 	margin-left: 3em;
-    margin-right: 3em;
-    box-shadow: .5em .5em .4em #888888;
-}
+  margin-right: 3em;
+  box-shadow: .5em .5em .4em #888888;
+}*/
 
 #project-links a:link {
     text-decoration: none;
@@ -31,6 +31,11 @@
 
 /* Zoom Out Effect */
 .hover04 figure img {
+	border-radius: 100%;
+	/*height: 11.2em;*/
+	/*margin-left: 3em;*/
+  /*margin-right: 3em;*/
+  box-shadow: .5em .5em .4em #888888;
 	width: 400px;
 	height: auto;
 	-webkit-transition: .3s ease-in-out;
