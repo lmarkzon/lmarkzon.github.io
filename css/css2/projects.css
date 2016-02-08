@@ -1,0 +1,78 @@
+/*PROJECTS INDEX PAGE*/
+#project-links	{
+	text-align: center;
+    font-family: pacifico, cursive;
+    font-weight: bold;
+}
+
+/*#project-links img {
+	border-radius: 100%;
+	height: 11.2em;
+	margin-left: 3em;
+  margin-right: 3em;
+  box-shadow: .5em .5em .4em #888888;
+}*/
+
+#project-links a:link {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #008B8B;
+    display: inline-block;
+}
+
+#project-links a:visited {
+    text-decoration: none;
+    color: #800080;
+}
+
+#project-links a:hover {
+    text-decoration: none;
+}
+
+/* Zoom Out Effect */
+.hover04 figure img {
+	border-radius: 100%;
+	height: 11.2em;
+	margin-left: 1em;
+  margin-right: 1em;
+  box-shadow: .5em .5em .4em #888888;
+	width: 400px;
+	/*height: auto;*/
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover04 figure:hover img {
+	width: 300px;
+}
+
+/*RUBY CHEAT SHEET PAGE*/
+#cheatsheet-content {
+    margin: .7em;
+    font-family: Raleway, sans-serif;
+}
+
+#ruby-table {
+    border: .15em solid black;
+    text-align: center;
+}
+
+.rubydoc-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rubydoc-link a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px #DAA520;
+}
+
+#ruby-table th {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#ruby-table caption {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: .3em;
+}

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lauren Markzon</title>
+    <description>I am a dedicated web developer coming into the industry as a former teacher and office manager who enjoys unraveling creative problems, designing meaningful projects, and learning about technology, development, and design.
+</description>
+    <link>http://lmarkzon.github.io/</link>
+    <atom:link href="http://lmarkzon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 07 Feb 2016 19:36:00 -0600</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2016 19:36:00 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Web Security</title>
+        <description>&lt;article&gt;
+      &lt;h3 class=&quot;subheader&quot;&gt;The Basics&lt;/h3&gt;
+        &lt;p&gt;
+          Based on what I know, one of the first and most important steps towards becoming a great web developer is understanding the fundamental basic principles of web/information security. Being familiar with security basics can help you understand the importance and role of security throughout the development lifecycle. If you don&#39;t avoid unncessarily unsecured software, you could be allowing &quot;attackers&quot; to exploit weaknesses for their own personal/financial gain and other malicious purposes. Protect you and your users from these kinds of issues by improving your practical knowledge of the basics of web security.
+        &lt;/p&gt;
+      &lt;h3 class=&quot;subheader2&quot;&gt;Best Practices&lt;/h3&gt;
+        &lt;p&gt;
+          These are key things to consider for system security that apply to you no matter which general-purpose operating system you are using. You should always think about the following precautions when securing your systems against attackers and unauthorized access or unfortunate disasters. For more information of each of these far-too-common security issues on the web, check out the link at the bottom of the page!
+        &lt;/p&gt;
+        &lt;div class=&quot;best-practices&quot;&gt;
+        &lt;dl&gt;
+          &lt;dt&gt;Use strong passwords:&lt;/dt&gt;
+            &lt;dd&gt;
+              One of the most basic ways to improve security is to utilize passwords that aren&#39;t easily guessed by brute force attacks. A brute force attack is when the attacker uses an automated system to guess passwords as quickly as possible, hoping to find the correct password. Passwords that have special characters and spaces in them, use both capital and lowercase letters, avoid words in the dictionary, as well as numbers, are much more difficult to crack than your middle name or your birth date. Remember as well that increasing the length of your password by just one character multiplies the total number of possibilities by the number of valid characters that can be used. In general, anything less than eight characters is considered far too easy to crack, the longer the better!
+            &lt;/dd&gt;
+          &lt;dt&gt;Invest in good perimeter defense:&lt;/dt&gt;
+            &lt;dd&gt;
+               Since not all security occurs on the desktop, it&#39;s a good idea to use an external firewall/router to help protect your computer. At the low end, you can purchase a retail router device. On the higher end, you can get managed switches, routers, and firewalls from &quot;Enterprise&quot; class vendors. Starting somewhere in the middle and moving all the way up to direct competition with the major &quot;Enterprise&quot; class vendors, you can put together your own firewalls either &quot;from scratch&quot; or using prepackaged firewall/router installers. Proxy servers, antivirus gateways, and spam filtering gateways can all improve perimeter security as well. In general, switches are better for security than hubs, routers with NAT are better than switches, and firewalls are a necessity.
+            &lt;/dd&gt;
+          &lt;dt&gt;Update your software:&lt;/dt&gt;
+            &lt;dd&gt;
+              While concerns such as patch testing before deployment to production systems may be very important in many situations, ultimately security patches must be rolled out to your systems. Ignoring security updates for a long time can result in the computer becoming easy targets for shady security crackers. Don&#39;t let your computer software fall too far behind the security update schedule.
+            &lt;/dd&gt;
+          &lt;dt&gt;Shut down services you don&#39;t use:&lt;/dt&gt;
+            &lt;dd&gt;
+              Often times, computer users don&#39;t even know which network accessible services are running on their systems. Make sure you&#39;re aware of every service running on your computer, and have a reason for it to still be running. This might require researching the importance of that service to your particular needs so you don&#39;t make a mistake, but it&#39;s always a good idea to have nothing running that you don&#39;t actually use.
+            &lt;/dd&gt;
+          &lt;dt&gt;Employ a data encryption:&lt;/dt&gt;
+            &lt;dd&gt;
+              Different levels of data encryption coverage are available to the security-conscious computer user, and choosing the right level of encryption for your particular needs is something that must be decided based on circumstances. Data encryption ranges from use of cryptographic tools on a file-by-file basis, through filesystem encryption, up to full disk encryption. This doesn&#39;t usually cover the boot partition, as that would require decryption assistance from specialized hardware. If your need for privacy is great enough to justify the purchase, it&#39;s definitely possible to get such whole-system encryption. For anything short of boot partition encryption, there are many solutions available for each level of encryption you need, this includes both commercial proprietary systems and open source systems for full disk encryption on every major desktop operating system.
+            &lt;/dd&gt;
+          &lt;dt&gt;Protect your data with backups:&lt;/dt&gt;
+            &lt;dd&gt;
+              One of the most important ways you can protect yourself from disaster is to back up your data on your system. Strategies for data redundancy can range from something as easy as periodically saving copies to CD to complex, staggered, periodic automated backups to a server. Free backup tools are available for putting together automated backup schemes of arbitrary complexity. Version control systems can provide flexible data management so that you can not only have backups on another computer. Although you can keep more than one desktop or laptop system up to date with the same data without a great deal of difficulty.
+            &lt;/dd&gt;
+          &lt;dt&gt;Encrypt sensitive communications:&lt;/dt&gt;
+            &lt;dd&gt;
+              Cryptographic systems for protecting communications from these eavesdroppers are surprisingly very common. Software supporting OpenPGP for e-mail, the Off The Record plug-ins for IM clients, encrypted tunnel software for sustained communication using secure protocols like SSH and SSL, and many other tools can be used to easily ensure that data is not compromised in transit. Of course in person-to-person communications, it can be difficult to convince the other user to utilize encryption software to protect communications, but sometimes that protection is critical!
+            &lt;/dd&gt;
+          &lt;dt&gt;Don&#39;t trust foreign networks:&lt;/dt&gt;
+            &lt;dd&gt;
+              It&#39;s really important to not trust foreign networks on open wireless networks such as local businesses wifi networks. If you&#39;re careful and think about security, there&#39;s no reason you can&#39;t use a wireless network at a coffee shop or some other untrusted foreign network. The key is to ensure security through your own system, and don&#39;t trust the foreign network to be safe from malicious security hackers. For example, it&#39;s much more critical that you protect sensitive communications with encryption on an open wireless network, including when you connect to Web sites where you use a login session cookie to automate authentication or enter a username and password. Less obviously, make sure you don&#39;t have any network services running that are not completely necessary, as they can be exploited if there is an unpatched vulnerability. Check your systems from both the inside and outside to determine what cracks malicious security hackers may see to try to compromise your computer, and make sure those points of entry are as locked down as reasonably possible!
+            &lt;/dd&gt;
+          &lt;dt&gt;Get an uninterruptible power supply:&lt;/dt&gt;
+            &lt;dd&gt;
+              You want to make sure you get a power supply that works with your operating system to notify it when it needs to shut itself down, just in case you aren&#39;t there when the power goes out, and make sure you get a UPS that provides power conditioning as well as battery back-up. So it&#39;s not just important for won&#39;t lose files when the power goes out. A surge protector just isn&#39;t enough to protect your system against damage from &quot;dirty&quot; power.
+            &lt;/dd&gt;
+          &lt;dt&gt;Monitor systems for security threats and breaches:&lt;/dt&gt;
+            &lt;dd&gt;
+              You should always institute some kind of monitoring routine to make sure that suspicious behaviors come to your attention quickly and let you follow up on what security breaches or threats there might be to security. This kind of attention should be spent on both network monitoring and integrity auditing and/or other local system security monitoring techniques.
+            &lt;/dd&gt;
+        &lt;/dl&gt;
+        &lt;/div&gt;
+        &lt;p&gt;
+          &lt;a href=&quot;http://www.techrepublic.com/blog/it-security/ensure-basic-web-site-security-with-this-checklist/&quot; id=&quot;techlink&quot; target=&quot;_blank&quot;&gt;Check out this link for more information on this web security check list!&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;!-- &lt;a href=&quot;2015-08-23-git.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt; --&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Fri, 09 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/10/09/web-security.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/10/09/web-security.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>JavaScript Objects vs Ruby Hashes</title>
+        <description>&lt;article&gt;
+    &lt;h3 class=&quot;subheader&quot;&gt;Creating and Accessing JavaScript Objects&lt;/h3&gt;
+    &lt;p&gt;
+      Similar to Ruby, in JavaScript (JS) almost &quot;everything&quot; is an object. A JS object is an unordered collection (container) of variables, which are named values called object &lt;span class=&quot;monospace&quot;&gt;properties&lt;/span&gt;. Objects in JS can contain single values or multiple values, and properties can be both *primitive values, other objects, and even functions. So JS objects can act as containers for named values, called properties, and **methods. In JS you can define and create your own objects, and there are three different ways you can do this. See these in action below, and their explanations are below the snippet. You can also see in the examples that you use a semi-colon to end a statement in JS:
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/a42f27397b35ce3e706e.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class=&quot;monospace&quot;&gt;Object Literal&lt;/span&gt; is the easiest way to create a JS object because you can both define and create an object with just one statement. It is a list of name:value pairs inside curly braces as seen above. So you can see that there is no need to use the keyword &lt;span class=&quot;monospace&quot;&gt;new Object()&lt;/span&gt; for the reasons of simplicity, readability, and execution speed. Finally, using an &lt;span class=&quot;monospace&quot;&gt;Object Constructor&lt;/span&gt; is the standard way to create an &quot;object type&quot;, and using an &quot;object type&quot; allows us to create multiple objects of this type. Now you&#39;ll want to access them, and there are two ways you can access object properties in JavaScript, using dot notation and bracket notation, as seen below:
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/cea3595700c24422cea9.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+  &lt;h3 class=&quot;subheader&quot;&gt;Creating and Accessing Ruby Hashes&lt;/h3&gt;
+    &lt;p&gt;
+      Ruby Hashes are an easy way to represent unordered collections of data in the form of unique key and value pairs. They are often used to have named arguments/parameters in ruby methods/functions. Hashes enumerate their values in the order that the corresponding keys were given, contained in curly brackets. You can create a hash through its new method, &lt;span class=&quot;monospace&quot;&gt;hashname = Hash.new&lt;/span&gt;. Or a hash can be simply created by using its implicit form, as seen below. &lt;script src=&quot;https://gist.github.com/lmarkzon/583a168630b87a52a553.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      You can also use an alternate style of syntax when your hash keys are always symbols, seen below: To access a value in a Ruby hash, you use its key as seen in the examples above and below. You&#39;ll notice that in Ruby, you can only use brackets to access a value in a hash(check out the comments!).
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/abd123aa664d4523c4b8.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;vocab&quot;&gt;
+      *Primitive values are strings (&quot;hello&quot;), numbers (2.6), true, false, null, and undefined.&lt;br&gt;
+      **JS methods are actions that can be performed on objects, so an object method is an object property containing a function definition.&lt;br&gt;
+      ***Ruby comments are # and JavaScript Ccomments are // in snippets shown.
+    &lt;/p&gt;
+    &lt;a href=&quot;tech.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Thu, 01 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/10/01/javaScript-objects-vs-ruby-hashes.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/10/01/javaScript-objects-vs-ruby-hashes.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby Classes</title>
+        <description>&lt;article&gt;
+  &lt;img id=&quot;plantsimg&quot; src=&quot;/imgs/plants.png&quot; alt=&quot;plants&quot;&gt;
+  &lt;h3 class=&quot;subheader&quot;&gt;Classes vs Objects&lt;/h3&gt;
+    &lt;p&gt;
+      As you may already know, Ruby is object-oriented and so everything in Ruby is an object. To understand what that really means, let&#39;s go over the difference between an object and a class. Classes define the behaviors of the objects in Ruby. A class is like a blueprint, once it&#39;s created you can use it to build as many &quot;houses&quot; as you&#39;d like. An Object is an instance of a class, it has its own data and &quot;knows&quot; its class, including the behaviors that go with it. When objects are defined inside of a method, they are scoped to the method, and disappear when the method ends. For example, a string is a class and an object within that class could be the specific string &lt;span class=&quot;monospace&quot;&gt;&quot;hello!&quot;&lt;/span&gt;.
+    &lt;/p&gt;
+
+    &lt;h3 class=&quot;subheader&quot;&gt;Instance and Class Variables&lt;/h3&gt;
+    &lt;p&gt;
+      Variables contain the data that&#39;s stored in objects. When variables are defined inside of a method, they are also scoped to the method. They come into existence brand new each time the method runs, and then disappears when the method ends. Instance Variables, prefixed &lt;span class=&quot;monospace&quot;&gt;@instancevariable&lt;/span&gt; with one symbol, and are scoped to the class. They can be accessed from any method within that class, and keep their value between method calls. Class Variables are tied to the class so there is only one total value, opposed to how Instance Variables have one for each and every instance/occurrence. Class variables are prefixed &lt;span class=&quot;monospace&quot;&gt;@@classvariables&lt;/span&gt; with two symbols instead of one, and are not as common as instance variables. To create an Instance you can call a method on the class new, such as &lt;span class=&quot;monospace&quot;&gt;&quot;string = String.new&quot;&lt;/span&gt;. Objects of most classes can be created by also calling new(). See both in action below and see the &lt;span class=&quot;monospace&quot;&gt;#comments&lt;/span&gt; for the line-by-line breakdown:
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/c0427787d2db5bae8e51.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+
+    &lt;h3 class=&quot;subheader&quot;&gt;Instance and Class Methods&lt;/h3&gt;
+    &lt;p&gt;
+      Instance Methods are called through a particular instance, such as &lt;span class=&quot;monospace&quot;&gt;“Hello”.size( )&lt;/span&gt;, and can access pretty much anything in its class. This includes reading and writing instance and/or class variables and calling other instance methods or class methods. They also have read-access to a special value called “self&quot;, which keeps a reference of the particular object the method was called on. Class Methods are called through the particular class, so you don&#39;t need an instance, and they&#39;re less common than instance methods. They are prefixed with the class name or &lt;span class=&quot;monospace&quot;&gt;&#39;self&#39;.&lt;/span&gt;. Since you don&#39;t need an instance to call these methods, they can&#39;t access instance variables/methods, can&#39;t refer to &#39;self&#39;, they can only operate on class variables and whatever arguments are supplied to them when they&#39;re called.
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/27d052259dfaa6763026.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+
+    &lt;h3 class=&quot;subheader&quot;&gt;Special Instance Method: Initialize&lt;/h3&gt;
+    &lt;p&gt;
+     There is a Special Instance Method called a Constructor and different coding languages all have different mechanisms for defining them. In ruby it&#39;s a special instance method called &lt;span class=&quot;monospace&quot;&gt;initialize()&lt;/span&gt;, when an instance of the class is created, initialize automatically runs. Parameters can be added to initialize, and you&#39;ll also need to pass those parameters to the constructor &#39;new&#39; like this: &lt;span class=&quot;monospace&quot;&gt;my_array = Array.new(5)&lt;/span&gt;. Five will be passed to initialize and this will create an array with 5 nil elements. The purpose of this is to do any &quot;set up&quot; needed, usually sets the starting values for instance variables.
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/164c7743130b929954bf.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+
+    &lt;h3 class=&quot;subheader&quot;&gt;All Together Now&lt;/h3&gt;
+    &lt;p&gt;
+      Final Product...
+      &lt;script src=&quot;https://gist.github.com/lmarkzon/c7aa944b979aedf096fe.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+    &lt;a href=&quot;JavaScript.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Fri, 25 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/09/25/ruby-classes.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/09/25/ruby-classes.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Womens Issues in Tech</title>
+        <description>&lt;article&gt;
+  &lt;p&gt;
+  What I found when researching was a lot of different issues, but there were two key issues that stood out at the “big ones”. The first is that there are not many women in the tech industry in the first place (or encouraged to be), and ironically, the second is that the few women that are working in the tech industry, are leaving at an alarming rate. According to the US Census Bureau, Women make up 59% of the US workforce, but the average percentage of women working in tech is only about 30%. And even that number isn’t really exact, since that’s just women who work for tech companies, when you get down to the stats of women in actual tech and leadership roles, it’s almost half of that. A quote in a LA times article I read on women in tech said “Last summer, Google, Facebook, Apple and other big tech companies released figures showing that men outnumbered women 4 to 1 or more in their technical sectors.” They also said that more than 50% of women will leave tech at some point in their careers, because of hostile working environments. Situations ranging from sexual harassment issues in the office, finding they have to prove themselves over and over again and otherwise given menial tasks they’re overqualified for, getting complaints about the way they “act” in the workplace, and I saw A LOT of “people treating me as if I had no idea what was going on”. They are things considered “small and silly” everyday issues that may not be complain-worthy, but when they are happening every single day repeatedly, they take a toll and make you question if “this is what I’m supposed to be doing”.
+  &lt;/p&gt;
+  &lt;p&gt;
+  Some steps have already been taken in the tech industry to help resolve some of these issues, and get more women attracted to and involved in tech. Programs such as Girls Who Code/Women Who Code and even Dev Bootcamp (offer a scholarship to women/minorities) are trying to make coding education and resources more available and accessible to women. But the key part of the problem isn’t getting more women interested in tech, in my opinion, it’s getting qualified women who are already in the tech industry to stay in it. One of the reasons women may be hesitant to have a career in the tech industry could be the reputation it has for “kicking women out” or not encouraging their career growth. The major companies, like I said before, are trying to hire more women and minorities, as well as make “systematic changes”, which is a good start. But something huge and “disruptive” needs to happen since this is a widespread issue that doesn’t only affect the tech industry and is not unique to any particular company or location, it’s happening consistently across national tech companies.
+  &lt;/p&gt;
+  &lt;p&gt;
+  This is all so interesting to me because when I started having an interest in tech and web development, all I heard was how the field is growing so quickly, that people in this industry were making great money, and that “being a woman” would be to my benefit since companies are hiring women/minorities left-and-right. Now that I know why all of these companies are so eager to hire women/minorities - it suddenly doesn’t feel as great being aware of all the issues it stems from.
+  &lt;/p&gt;
+  &lt;a href=&quot;enumerable-methods.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Sat, 19 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/09/19/womens-issues-in-tech.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/09/19/womens-issues-in-tech.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Enumerable Methods</title>
+        <description>&lt;article&gt;
+  &lt;h3&gt;Enumerable&lt;span id=&quot;monospace&quot;&gt;#group_by&lt;/span&gt;&lt;/h3&gt;
+    &lt;p&gt;
+      The Enumerable is used in Ruby as a way of saying that we are able to get elements out of a data collection, one at a time. It is a module (like a container) used as a mixin, meaning it allows you to write code once and share it between a bunch of &quot;mixed&quot; classes, so you&#39;re able to put it in these containers to literally be &quot;mixed in&quot; with your classes. Enumerable provides a number of enumerators, which are tools that you can use to get each of the elements out of a collection in such a way like this. Having methods &quot;return&quot; enumerators allow us to &quot;chain operations indefinitely&quot; and make better collections. An example of one of these methods that make our code better is group_by.
+        &lt;script src=&quot;https://gist.github.com/lmarkzon/fd48ac27064faa30cb46.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class=&quot;monospace&quot;&gt;group_by&lt;/span&gt; breaks a data collection into groups depending on the given parameters or criteria, by result of the block (see above). It expects a block containing the criteria of how the items in the collection are supposed to be grouped, and returns a hash where each key represents a group. Each of the key&#39;s paired value is an array that contains the objects that belong to that group. If no block is given - an enumerator is returned. When used on an array, this method iterates (points to each item within the array and tells it what to do, over and over...) through the array, passing each element to the block. The resulting value of the block is the group that the element is supposed to be placed in. When used on a hash, this method passes each of the key-value pairs in the hash to the block, as either a two-element array or two separate items.
+    &lt;/p&gt;
+    &lt;p&gt;
+      In the block of code below, 0 - 15 are passed to the block that receives each of the numbers as the criteria (or parameter) &lt;span class=&quot;monospace&quot;&gt;number&lt;/span&gt;. The result value of the block &lt;span class=&quot;monospace&quot;&gt;number % 3&lt;/span&gt; determines which group (array) each number is going to placed into, this result could be 0, 1, or 2. Meaning the resulting hash will have 3 groups represented by those keys (0, 1, or 2), all containing different things based on the key&#39;s corresponding value.
+        &lt;script src=&quot;https://gist.github.com/lmarkzon/73e30bd75ea442cddd87.js&quot;&gt;&lt;/script&gt;
+    &lt;/p&gt;
+    &lt;a href=&quot;ruby-classes.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Sat, 19 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/09/19/enumerable-methods.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/09/19/enumerable-methods.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Arrays and Hashes</title>
+        <description>&lt;article&gt;
+  &lt;h3&gt;Arrays&lt;/h3&gt;
+  &lt;p&gt;
+  Arrays can contain all types of Ruby data/objects, including other arrays or it can even be empty - but they’re structured in an ordered list. Each item within the array is in a certain spot, and that spot has a corresponding index number that’s used to identify specific items within the array. In arrays, the first item listed starts with the number 0, not 1, then goes up from there. Arrays are also always followed by a block of some code wrapped in do and end or [ ] symbols. What does it mean to iterate over an array? Iterators are methods that “act” like loops and arrays are a way to store (and keep track of) an unknown number of items(index items) for later use. More specifically, iterating over an array just means pointing to each item within the array and telling it how to “act” or what to “do” to make use of the information/item at the time, or you can use a method to go over each item. So instead of telling the array “as a whole” to do something, you are “talking” to the individual items within it. When iterating over an array, you go in order, from the starting point to the ending point that you can define. In arrays, &#39;puts&#39; calls for &#39;puts&#39; on each of the objects in the array. All you have to do to create an array is define a variable, and assign it the values that you want inside of square brackets, separated by commas.
+  &lt;br&gt;
+  &lt;br&gt;
+    Example:&lt;br&gt;
+     &lt;br&gt;
+     names = [Bob, Joe, Steve]
+  &lt;br&gt;
+  &lt;br&gt;
+             puts names [0]&lt;br&gt;
+             puts names [1]&lt;br&gt;
+             puts names [2]&lt;br&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;Hashes&lt;/h3&gt;
+  &lt;p&gt;
+  Hashes are like a collection of pairs of information, each pair of information has a key (unique name) and a value. It’s very important that a hash’s key (name) is unique, or else it may not return the correct paired-value. Based on what we’ve learned, you use the key (a unique name you assign your hash) to return/access the value paired to that key. Instead of using the square brackets like arrays use, [ ], hashes use the curly brackets, { }, to contain the values. To separate the key from each value, the format is key =&gt; &quot;value”, and each pair should be separate by a comma.  If there is only one item in the hash, it does not need quotes around it.
+    &lt;br&gt;
+    &lt;br&gt;Example:&lt;br&gt;
+  &lt;br&gt;
+  my_info = {:first_name =&gt; &#39;Sally&#39;, :last_name =&gt; &#39;Smith&#39;, :hometown =&gt; &#39;Chicago&#39;, :age =&gt; 25}&lt;br&gt;
+    &lt;br&gt;
+  p my_info [:first_name]&lt;br&gt;
+  p my_info [:last_name]&lt;br&gt;
+  p my_info [:hometown]&lt;br&gt;
+  p my_info [:age]
+    &lt;br&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;Arrays vs Hashes&lt;/h3&gt;
+  &lt;p&gt;
+  Both arrays and hashes are collections of objects in Ruby, but they have some differences (besides just syntax) that make each work better in different scenarios. As stated above, arrays are ordered lists and have assigned integers called “index numbers” to identify them, starting from one end to the other, hashes on the other hand are unordered key-value pairs that can be any object type. If you wanted to be able to look up items in your collection of data by its specific (and unique) name, then you would probably want to use a hash. But if you wanted to sort a list of items in a specific order (integers lowest to highest or strings in alphabetical order) then you would want to use a ordered list which is an array.
+  &lt;/p&gt;
+  &lt;a href=&quot;issues-in-tech.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Sun, 13 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/09/13/arrays-and-hashes.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/09/13/arrays-and-hashes.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS Positioning</title>
+        <description>&lt;article&gt;
+  &lt;h3 class=&quot;subheader&quot;&gt;
+  Static Positioning&lt;/h3&gt;
+    &lt;p&gt;
+      There are 4 different types of positioning options you can set your elements to when styling a webpage or document. It is very important to know the differences between them to have complete control over the way your site looks and where everything goes. This can be applied to pretty much any aspect of a page, allowing for complete customization of your document. The different positions are Absolute, Fixed, Static, and Relative, and we will be going over the definitions and differences of each below. Static positioning is the default for all page elements. It means that the element is not positioned in any special way, it is always positioned according to the normal flow of the page. So it really doesn&#39;t mean that much, just that the elements will flow into the page as it normally would. Based on my experiences and what I&#39;ve researched, you would really only used static positioning to &quot;forcefully-remove&quot; an element&#39;s positioning that was applied to it out of your control.
+    &lt;/p&gt;
+    &lt;h3 class=&quot;subheader&quot;&gt;
+    Absolute Positioning&lt;/h3&gt;
+    &lt;p&gt;
+    	Absolute positioning allows you to place any object on the page literally anywhere you want it to go and exactly in that place. So if you give an element a positioning of absolute and then give it a position using top/bottom/right/left it will go exactly in that spot. It&#39;s important to remember that these values will be relative to the next parent element with relative/absolute positioning, and if there is no parent, it will default to be placed relatively to the page itself. So these elements are removed from the &quot;flow&quot; of the page&#39;s elements. Absolute positioning applied to an element can result in overlapping elements since the objects are being placed in very specific locations. Which also means that an element with absolute positioning is not affected by other page elements, nor does it affect them. Just remember, overuse and improper use of absolute positioning of your site can result in limited flexibility of the page.
+      &lt;br&gt;
+      &lt;br&gt;For Example, an image in the lower right corner would look like:
+      &lt;br&gt;img {
+          &lt;br&gt;position: absolute;
+          &lt;br&gt;bottom: 0px;
+          &lt;br&gt;right: 0px;
+         &lt;br&gt;}
+    &lt;/p&gt;
+    &lt;h3 class=&quot;subheader&quot;&gt;
+    Relative Positioning&lt;/h3&gt;
+    &lt;p&gt;
+      Relative positioning means the object in question is positioned relative to the page margins of the document or container it&#39;s in, regardless of what&#39;s around it. So the element is relative to its normal self, meaning when you set the top, right, bottom, and left properties it will cause it to be adjusted away from its normal position. But if you don&#39;t set any other positioning attributes, it will not affect it&#39;s positioning. Relative positioning doesn&#39;t affect any other elements on the document other than the one that&#39;s targeted, unlike absolute.
+      &lt;br&gt;
+      &lt;br&gt;For Example, a header you want in the upper left corner would look like:
+      &lt;br&gt;h1 {
+          &lt;br&gt;position: relative;
+          &lt;br&gt;top: 5px;
+          &lt;br&gt;right: 5px;
+         &lt;br&gt;}
+    &lt;/p&gt;
+    &lt;h3 class=&quot;subheader&quot;&gt;
+    Fixed Positioning&lt;/h3&gt;
+    &lt;p&gt;
+    	Fixed is positioned relative to the browser window itself (or viewpoint), so even when the window is scrolled the position doesn&#39;t change. A fixed positioned element will stay in it&#39;s position on the screen, so this would be useful for a nav bar you want the user to always be able to see and access when they&#39;re scrolling down the page. Sometimes this can create a weird/interesting effect on the page, depending on how well it is used with other elements. This type of positioning it the least commonly used, based on my experice and and what I&#39;ve read.
+    &lt;/p&gt;
+    &lt;a href=&quot;arrays-hashes.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/09/05/css-positioning.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/09/05/css-positioning.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>We Are All In This Big Mess Together</title>
+        <description>&lt;article&gt;
+    &lt;p&gt;
+      When I started Phase 0 of Dev Bootcamp this week, there were so many fears going through my head: can I do this? what if everyone else knows more than me? what if it takes me longer than everyone else to learn? what if I fail? After watching Shereef&#39;s Fireside Chat (and 1 week into phase 0), I am happy to say I am feeling much more confident and excited than ever about DBC. Although I knew I wasn&#39;t alone or unique in having these thoughts and fears, I definitely did not realize that many students feel this way going into the program. I just assumed that I was one of the least experienced, but that&#39;s exactly who this program is for - beginners! I am going to feel lost and confused and make mistakes, and it&#39;s okay because so is everyone else and we&#39;ll all be able to help out one another. It sounds like pair programming is such a large portion of the program, which also makes me feel much better that we will be working with other people as well as more hands-on (opposed to just listening to lecture after lecture). I learn best through experience, such as trial and error, so DBC&#39;s teaching method ranks very high for me.
+    &lt;/p&gt;
+    &lt;p&gt;
+       Shereef discusses two mindsets he has seen both students and teachers shift into at DBC,  these are the Kitchen mindset and the Restaurant or Table mindset. The Table mindset is like walking into a restaurant and looking at the menu with a consumer mindset, you know exactly what you&#39;re getting so you expect to get what you paid for. A mindset of &quot;if I feel I do not get what I paid for, I will complain because I&#39;m owed this&quot; as if everything we pay for should be handed to us. The other, more favorable, mindset is the Kitchen mindset; a handful of people are just learning to cook for the first time and others have some experience, but we&#39;re a team and can work it out together. He calls this being in &quot;creator mode&quot;, and this, I believe, is key to thriving at Dev Bootcamp. My goal is to keep in mind the Kitchen mindset so I can be open to what the DBC experience has to offer and to let down some of those walls so I can really grow from the experience.
+    &lt;/p&gt;
+    &lt;p&gt;
+        What has pleasantly surprised me about DBC&#39;s learning environment and program is its focus on concepts besides just coding and technical details, such as researching better time-management skills and educating ourselves on our learning/thinking style for more efficient learning. When I was first looking into DBC&#39;s program I loved that they offered counseling and yoga during the onsite portion of the program, which definitely helped draw me in, but even in my first week of phase 0 I feel so much more aware of my learning abilities. I still have my fears for the program and know there are HUGE challenges ahead in the next few months, but now I am more excited about facing those challeneges than ever before. After all, we&#39;re all in this big &quot;Kitchen&quot; mess together.
+    &lt;/p&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/08/23/we-are-all-in-this-big-mess-together.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/08/23/we-are-all-in-this-big-mess-together.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Introduction to Version Control, Git, and GitHub</title>
+        <description>&lt;article&gt;
+    &lt;p&gt;
+      What are the benefits of version control? Well, version control is definitely helpful for keeping track of your own files, as well as when you are working on the same files with other people. So instead of sending a project back and forth to work on it remotely, we can all work on the same files at the same time without overwriting anything. It keeps track of your files and remembers any and all changes made to them, including who made them, and when. This is very helpful if you realize you&#39;ve messed up your code and need to go back to a certain point and work from there. Version control is also great because it allows developers to share their projects with each other without affecting the original version.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        How does git help you keep track of changes? Git is an open-source version control system that allows developers to track changes made on their code files throughout the lifetime of a project. Git lets you create a &quot;branch&quot; where you work on some of the files without it affecting the base code or &quot;trunk&quot; until you are sure it is ready to be merged with the rest of the &quot;tree&quot;. Whenever you want to &quot;save&quot; what you&#39;ve done so far, you bundle up all of your changes into something called a commit. These are the &quot;save check-points&quot; that allow you to track your changes and go back to earlier versions of the project. A great part about Git is that it encourages developers to be experimental since you get to make changes locally and don&#39;t have to push to a centralized repository until you are ready.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        Why use GitHub to store your code? GitHub is a social coding website that allows developers to share their code, as well as keep track of changes to their work using Git. So by storing your code on GitHub, it is easily accessible to share with others, whether you want someone to review your work, contribute to projects, or you and 100 other people are working on a collaborative project. Or maybe another developer who is stuck somewhere in their coding might be able to learn or benefit from code that I&#39;ve already written, or I might be the one who needs help! One of the best reasons to use GitHub to store your code is that since you&#39;re not &quot;messing&quot; with the master version of a file, you can be experimental and try different things before commiting a file. GitHub is so beneficial for developers to back-up, share, and track their work with other coders!
+    &lt;/p&gt;
+  &lt;a href=&quot;css-concepts.html&quot; class=&quot;next&quot;&gt;Next&lt;/a&gt;
+&lt;/article&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2015 00:00:00 -0500</pubDate>
+        <link>http://lmarkzon.github.io/blog/development/2015/08/23/git.html</link>
+        <guid isPermaLink="true">http://lmarkzon.github.io/blog/development/2015/08/23/git.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

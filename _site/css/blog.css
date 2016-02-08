@@ -1,0 +1,140 @@
+/*BLOG INDEX LINKS*/
+#blog-index {
+    top: 33%;
+    left: 33%;
+    line-height: 2.5em;
+}
+
+.links {
+    text-align: center;
+    list-style-type: none;
+    font-family: pacifico, cursive;
+    font-weight: bold;
+    position: relative;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.links a:link {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #008B8B;
+}
+
+.links a:visited {
+    text-decoration: none;
+    color: #800080;
+}
+
+.links a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px #DAA520;
+}
+
+.next {
+    font-family: pacifico, cursive;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    padding-left: 75%;
+}
+
+.next a:hover {
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em #333;
+}
+/*BLOG DATES*/
+h4 {
+    color: #FFFFE0;
+    font-family: Voltaire, cursive;
+    font-size: 1.3em;
+    background-color: #333333;
+    margin: 0;
+    margin-top: -1em;
+    padding-top: .7em;
+    padding-left: .5em;
+    text-align: center;
+}
+
+
+/*BLOG PARAGRAPH CONTENT HEADERS*/
+h3 {
+    font-family: Raleway, Trebuchet MS;
+    font-size: 2em;
+    margin: 0;
+    margin-top: -1em;
+    padding-top: 1em;
+    font-weight: bolder;
+    padding-left: .5em;
+}
+
+.subheader {
+    font-family: Raleway, Trebuchet MS;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+}
+
+.subheader2 {
+    font-family: Raleway, Trebuchet MS;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-top: .7em;
+}
+
+/*BLOG PARAGRAPH CONTENT*/
+article {
+    font-family: Raleway, sans-serif;
+    text-align: justify; 
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Raleway, sans-serif;
+    font-size: 1.2em;
+}
+
+span.monospace {
+    font-family: monospace;
+}
+
+#plantsimg {
+    float: right;
+    height: 6em;
+    margin-top: -.9em;
+    margin-right: 5em;
+}
+
+script.gist-snippet {
+    margin: .5em;
+}
+
+.vocab    {
+    margin-top: 1.5em;
+    font-size: .9em;
+}
+
+#techlink a:link {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #008B8B;
+}
+
+.best-practices {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -.5em;
+    font-family: Raleway, sans-serif;
+}
+
+.best-practices dt {
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-left: 1em;
+    }

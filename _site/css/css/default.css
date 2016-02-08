@@ -1,0 +1,331 @@
+/*Page Google Fonts:
+Pacifico, Poiret One, Fontdiner Swanky,
+Rochester, Parisienne, Gruppo*/
+
+html {
+    background-color: #DCDCDC;
+}
+
+body {
+    margin: 0;
+    margin-top: -1em;
+}
+
+/*MY NAME AT TOP OF PAGE*/
+h1 {
+    color: #FAFAD2;
+    font-family: Parisienne, cursive;
+    background-color: #333333;
+    margin: 0;
+    padding-top: 1em;
+    padding-left: .5em;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+span.enlarge {
+    font-size: 1.3em;
+}
+
+/*"BLOG POSTS" and PAGE HEADERS*/
+h2 {
+    color: #FAFAD2;
+    font-family: Voltaire, cursive;
+    background-color: #333333;
+    margin: 0;
+    margin-top: -1em;
+    padding-top: 1em;
+    padding-left: .5em;
+    text-align: center;
+}
+
+/*NAVIGATION BAR*/
+#nav {
+    font-family: Poiret One, Cursive;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+#nav ul {
+    list-style-type: none;
+    width: 59%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav li {
+    float: left;
+    font-size: 1.5em;
+}
+
+#nav li a {
+    display: block;
+    padding: .5em .6em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FAFAD2;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+#nav li:first-child a {
+    border-left: 0px;
+}
+
+#nav li a:hover {
+    text-shadow: 2px 2px #008B8B;
+}
+
+a:visited {
+    color: #008B8B;
+}
+
+/*HOME CENTERED IMAGES*/
+#imagerow {
+    text-align: center;
+    padding: 2.5em 0 2.5em 0;
+}
+
+.home-img {
+    height: 200px;
+    width: 200px;
+    margin: 32px;
+    /*padding: 4.3em;*/
+}
+
+/*PAGE UNDER CONSTRUCTION IMAGE*/
+#construction {
+    text-align: center;
+}
+
+#construction img {
+    width: 50%;
+    padding: 2em;
+
+}
+
+/*ABOUT ME: MAIN SECTION OF SITE*/
+#aboutme-article {
+    text-align: justify;
+    padding: 2.6em 0 2.6em 0;
+}
+
+.subheader {
+    font-family: Raleway, Trebuchet MS;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-top: 1.3em;
+}
+
+/*ABOUT ME PARAGRAPHS*/
+p.aboutme {
+    margin: 1.5em;
+    /*margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 1em;*/
+    font-family: Raleway, sans-serif;
+    font-size: 1.3em;
+}
+
+/*PARAGRAPH BOLDED STARTING LINES*/
+.bold {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*ABOUT ME PICS*/
+#profpic {
+    height: 10em;
+    border: .3em solid #000000;
+    float: right;
+    margin-top: .4em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#michiganpic {
+    height: 15em;
+    float: left;
+    margin: 0 1em 1em -3em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+#msupic {
+    height: 8em;
+    float: right;
+    margin: -2em 1em 0 1em;
+}
+
+/*IMAGE LINKS*/
+#aboutme a:link {
+    text-decoration: none;
+}
+
+/*FOOTER AND SOCIAL MEDIA LINKS*/
+footer {
+    text-align: center;
+    bottom: 0%;
+    background-color: #333333;
+    width: 100%;
+    height: 6em;
+    position: relative;
+    margin-top: 1em;
+}
+
+#social img {
+    height: 5.5em;
+    width: 5.5em;
+    font-size: 65%;
+    margin-right: 7em;
+    margin-left: 7em;
+    margin-top: 2em;
+}
+
+/*CONTACT FORM FONTS IMPORTED*/
+@font-face {
+    font-family: 'YanoneKaffeesatzRegular';
+    src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot');
+    src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot?#iefix')
+    format('embedded-opentype'),
+     url('../fonts/YanoneKaffeesatz-Regular-webfont.woff')
+        format('woff'),
+     url('../fonts/YanoneKaffeesatz-Regular-webfont.ttf')
+        format('truetype'),
+     url('../fonts/YanoneKaffeesatz-Regular-webfont.svg#YanoneKaffeesatzRegular')
+        format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix')
+      format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff')
+      format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf')
+      format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular')
+      format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*CONTACT PAGE CONTACT FORM*/
+body, div, h1, form, fieldset, input, textarea {
+    margin: 0; padding: 0; border: 0; outline: none;
+}
+
+.cover {
+    background:#CCC;
+    width:700px;
+    margin:auto;
+    padding-left:60px;
+}
+
+h2.contact {
+    text-align: center;
+    font-size: 3em;
+    color: #008B8B;
+    height: 1.5em;
+    font-family: 'YanoneKaffeesatzRegular', cursive;
+    margin-top: -2em;
+    margin-bottom: .4em;
+    margin-right: 1.2em;
+    padding-top: .5em;
+    background-color: #D3D3D3;
+}
+
+p.contact {
+    font-size: 2em;
+    margin-bottom: .4em;
+    margin-top: .3em;
+    line-height: 1.5em;
+    font-family: 'BebasNeueRegular', cursive;
+    color: #008B8B;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    margin-bottom: 0px;
+}
+
+input[type="text"] {
+    width: 400px;
+}
+
+textarea {
+    width: 600px;
+    height: 275px;
+}
+
+label {
+    color: #008B8B;
+}
+
+/*CONTACT FORM USER INPUT TEXT*/
+input, textarea {
+    background-color: #F5F5F5;
+    border: .1em solid #800080;
+    padding: .45em;
+    font-family: Keffeesatz, Arial;
+    color: #4b4b4b;
+    font-size: 1em; -webkit-
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+input:focus, textarea:focus {
+    border: .1em solid #800080;
+    background-color: #F5F5F5;
+}
+
+/*CONTACT FORM SUBMIT BUTTON*/
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    color: #008B8B  ;
+    font-size: 24px;
+    font-family: 'BebasNeueRegular', cursive;
+    font-weight: bold;
+    background-color: #7ac000;
+    padding: 5px 36px 8px 36px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #FFFACD),
+        color-stop(0.62, #FFFFE0)
+    );
+}
+
+input[type="submit"]:hover {
+    color: #FFFACD;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: #008B8B;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #8B008B),
+        color-stop(0.62, #800080)
+    );
+}
+input[type="submit"]:active {
+    top: 1px;
+     }

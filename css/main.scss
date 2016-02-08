@@ -1,0 +1,179 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+// Home screen images
+#imagerow {
+    text-align: center;
+    padding: 2.5em 0 2.5em 0;
+}
+
+.home-img {
+    height: 200px;
+    width: 200px;
+    margin: 32px 80px 32px 80px;
+    /*padding: 4.3em;*/
+}
+
+
+// About
+.bold {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#profpic {
+    height: 160px;
+    border: .3em solid #000000;
+    float: right;
+    margin-top: .4em;
+    margin-bottom: .5em;
+    margin-left: 16px 16px;
+    margin-right: 16px;
+}
+
+#michiganpic {
+    height: 15em;
+    float: left;
+    margin: 0 16px 16px -48px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+#msupic {
+    height: 8em;
+    float: right;
+    margin: -32px 16px 0 16px;
+}
+
+
+// Portfolio
+/*PROJECTS INDEX PAGE*/
+#project-links	{
+	text-align: center;
+    font-family: pacifico, cursive;
+    font-weight: bold;
+}
+
+/*#project-links img {
+	border-radius: 100%;
+	height: 11.2em;
+	margin-left: 3em;
+  margin-right: 3em;
+  box-shadow: .5em .5em .4em #888888;
+}*/
+
+#project-links a:link {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #008B8B;
+    display: inline-block;
+}
+
+#project-links a:visited {
+    text-decoration: none;
+    color: #800080;
+}
+
+#project-links a:hover {
+    text-decoration: none;
+}
+
+/* Zoom Out Effect */
+.hover04 figure img {
+	border-radius: 100%;
+	height: 200px;
+	margin: 64px 8px 64px 8px;
+  box-shadow: .5em .5em .4em #888888;
+	width: 325px;
+	/*height: auto;*/
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover04 figure:hover img {
+	width: 300px;
+}
+
+/*RUBY CHEAT SHEET PAGE*/
+#cheatsheet-content {
+    margin: .7em;
+    font-family: Raleway, sans-serif;
+}
+
+#ruby-table {
+    border: .15em solid black;
+    text-align: center;
+}
+
+.rubydoc-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rubydoc-link a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px #DAA520;
+}
+
+#ruby-table th {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#ruby-table caption {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: .3em;
+}
